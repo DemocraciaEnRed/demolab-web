@@ -1,6 +1,7 @@
 <template>
-  <div class="secondary-bkg">
+  <div class="secondary-bkg glossary">
     <div class="container">
+      <h1>Glosario demolab</h1>
       <div class="columns">
         <div class="column">
           <h2 class="primary-color">
@@ -32,5 +33,16 @@ export default {
 </script>
 
 <style>
-
+  .glossary h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+  .glossary h2{
+    font-size: 40px;
+  }
+  .glossary{
+    padding: 50px 0;
+    color: white
+  }
 </style>

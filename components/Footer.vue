@@ -1,18 +1,20 @@
 <template>
   <div>
-    <footer class="container">
-      <div class="logos-footer">
-        <img src="/images/footer-logos.png" alt="logos de demo lab y de el consejo de bogota">
+    <footer>
+      <div class="container">
+        <div class="logos-footer">
+          <img src="/images/footer-logos.png" alt="logos de demo lab y de el consejo de bogota">
+        </div>
+        <ul class="sitemap">
+          <li>¿Como funciona?</li>
+          <li>Acerca de este sitio</li>
+          <li>Contacto</li>
+        </ul>
+        <ul class="terms">
+          <li>Terminos y condiciones</li>
+          <li>Politica de privacidad</li>
+        </ul>
       </div>
-      <ul class="sitemap">
-        <li>¿Como funciona?</li>
-        <li>Acerca de este sitio</li>
-        <li>Contacto</li>
-      </ul>
-      <ul class="terms">
-        <li>Terminos y condiciones</li>
-        <li>Politica de privacidad</li>
-      </ul>
     </footer>
     <div class="sponsors">
       <h5 class="has-text-centered">
@@ -76,11 +78,13 @@ export default {
   .sponsor-list li{
     margin: 0 5px;
   }
-  footer{
+  footer>div{
     display: flex;
     align-items: center;
     padding: 20px 0;
-
+  }
+  footer{
+    background-color: #F5F5F5;
   }
   .terms{
     margin-left: auto;
