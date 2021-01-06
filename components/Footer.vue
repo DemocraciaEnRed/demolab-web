@@ -54,7 +54,7 @@
           <p class="rights">
             Todos los derechos reservados
           </p>
-          <div></div>
+          <div class="dummy"></div>
       </div>
     </div>
   </div>
@@ -68,6 +68,9 @@ export default {
 </script>
 
 <style>
+  .dummy{
+    width: 200px;
+  }
   .sponsor-list{
     text-align: center;
     margin: auto;

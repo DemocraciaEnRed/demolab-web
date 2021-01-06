@@ -48,10 +48,12 @@ export default {
   }
   .method{
     margin: 0 10px;
+    text-align: center;
   }
   .method div{
     height: 100px;
     border: 1px solid #D6D6D6;
     background-color: white;
+    width: 175px;
   }
 </style>
