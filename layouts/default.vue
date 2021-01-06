@@ -1,9 +1,18 @@
 <template>
   <div>
+    <AppNav />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
 <script>
-export default {}
+import AppNav from '~/components/AppNav.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    AppNav, Footer
+  }
+}
 </script>

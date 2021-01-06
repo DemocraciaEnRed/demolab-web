@@ -1,16 +1,19 @@
 @import "~bulma/sass/utilities/_all";
 // $primary : #4319b6;
-$primary : #522675;
+$primary : #5fd1bc;
+$secondary: #5c49ba;
 $body-size: 14px;
 // $secondary : #371575;
 $family-primary: 'Raleway', $family-sans-serif;
 $primary-invert: findColorInvert($primary);
+$secondary-invert: findColorInvert($secondary);
 $colors: (
     "white": ($white, $black),
     "black": ($black, $white),
     "light": ($light, $light-invert),
     "dark": ($dark, $dark-invert),
     "primary": ($primary, $primary-invert),
+    "secondary": ($secondary, $secondary-invert),
     "info": ($info, $info-invert),
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),

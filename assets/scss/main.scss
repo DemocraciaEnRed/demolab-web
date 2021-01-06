@@ -3,3 +3,59 @@
 @import "~buefy/src/scss/buefy";// Import your other app styles
 
 @import "app";
+
+.boton{
+  border: 0;
+  padding: 10px;
+  color: white;
+  background-color: #ddd;
+  font-family: Staatliches;
+  font-size: 25px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  transition: scale 0.05s ease-in;
+  &:hover{
+    color: white;
+    scale: 1.01;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  &.primary{
+    background-color: $primary;
+  }
+  &.secondary{
+    background-color: $secondary;
+  }
+  & span{
+    position: relative;
+    top: 3px;
+  }
+}
+.full{
+  display: block;
+  width: 100%;
+}
+.primary-bkg{
+  background-color: $primary;
+}
+.secondary-bkg{
+  background-color: $secondary;
+}
+.primary-color{
+  color: $primary;
+}
+.secondary-color{
+  color: $secondary;
+}
+.section-title{
+  font-size: 40px;
+  line-height: 45px;
+  color: $secondary;
+}
+h1,h2{
+  color: $secondary;
+}
+h1{
+  font-size: 40px;
+}
