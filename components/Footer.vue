@@ -54,11 +54,11 @@
           <p class="rights">
             Todos los derechos reservados
           </p>
-          <div class="dummy"></div>
+          <div class="dummy" />
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>

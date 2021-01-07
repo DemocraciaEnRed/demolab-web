@@ -1,5 +1,5 @@
 <template>
-  <div class="link" v-bind:style="{ backgroundColor: color }">
+  <div class="link" :style="{ backgroundColor: color }">
     <h3>{{ title }}</h3>
     <div class="link-content">
       IR
@@ -41,6 +41,7 @@ export default {
   margin-right: 25px;
   text-transform: uppercase;
   font-size: 20px;
+  line-height: 25px;
 }
 .link-content{
   display: flex;

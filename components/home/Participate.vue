@@ -26,7 +26,7 @@
             <span>Prioriza</span>
           </div>
         </div>
-        <Button :text="'Participa e incide'" :secondary="true"/>
+        <Button :text="'Participa e incide'" :secondary="true" />
       </div>
     </div>
   </div>

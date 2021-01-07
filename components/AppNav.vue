@@ -11,24 +11,24 @@
         </b-navbar-item>
       </template>
       <template slot="end">
-        <b-navbar-item :to="{ path: '/' }">
+        <nuxt-link to="/" class="navbar-item">
           Inicio
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/' }">
+        </nuxt-link>
+        <nuxt-link to="/que-es-demolab" class="navbar-item">
           ¿Que es demolab?
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/' }">
+        </nuxt-link>
+        <nuxt-link to="/servicios" class="navbar-item">
           Servicios y experiencias
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/' }">
+        </nuxt-link>
+        <nuxt-link to="/eventos" class="navbar-item">
           Eventos
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/' }">
+        </nuxt-link>
+        <nuxt-link to="/metodologias" class="navbar-item">
           Metodologias
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/' }">
+        </nuxt-link>
+        <nuxt-link to="/contacto" class="navbar-item">
           Contacto
-        </b-navbar-item>
+        </nuxt-link>
       </template>
     </b-navbar>
   </div>
@@ -43,10 +43,18 @@ export default {
 </script>
 
 <style>
+  .navbar-brand{
+    background-color: white;
+  }
   .logo{
     max-height: 100px!important;
     height: 60px;
   }
+  /* exact link will show the primary color for only the exact matching link */
+  a.nuxt-link-exact-active {
+    color: #00c58e;
+  }
+
   @media screen and (max-width: 480) {
     .logo{
       height: 50px;

@@ -18,7 +18,7 @@
       <div class="method-description">
         <h1>Metodologías</h1>
         <p>Conoce, descarga y aplica las metodologías de apertura de DemoLab</p>
-        <Button :text="'ir a metodologias'"/>
+        <Button :text="'ir a metodologias'" />
       </div>
     </div>
     <div class="link-container">
@@ -27,9 +27,9 @@
       </div>
       <div class="links">
         <Link :title="'¿Que es el \n consejo de bogotá?'" :color="'rgba(92, 73, 186, 0.45)'" />
-        <Link :title="'Agenda del Concejo'" :color="'rgba(0, 213, 189, 0.35)'"/>
-        <Link :title="'Proyectos de innovación \n política en el mundo'" :color="'rgba(217, 215, 255, 0.8)'"/>
-        <Link :title="'Data sets'" :color="'rgba(118, 219, 122, 0.57)'"/>
+        <Link :title="'Agenda del Concejo'" :color="'rgba(0, 213, 189, 0.35)'" />
+        <Link :title="'Proyectos de innovación \n política en el mundo'" :color="'rgba(217, 215, 255, 0.8)'" />
+        <Link :title="'Data sets'" :color="'rgba(118, 219, 122, 0.57)'" />
       </div>
     </div>
   </div>

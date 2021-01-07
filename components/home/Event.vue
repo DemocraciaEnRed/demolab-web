@@ -1,13 +1,13 @@
 <template>
   <div class="event">
-    <h3 class="event-title text-center" v-bind:style="{ color: color }">
+    <h3 class="event-title text-center" :style="{ color: color }">
       <span class="material-icons">{{ icon }}</span>
       {{ title }}
     </h3>
     <p class="event-description">
       {{ description }}
     </p>
-    <Button :fullwidth="true" :icon="'local_hospital'" :text="'detalles'" :customColor="color"/>
+    <Button :fullwidth="true" :icon="'local_hospital'" :text="'detalles'" :custom-color="color" />
   </div>
 </template>
 

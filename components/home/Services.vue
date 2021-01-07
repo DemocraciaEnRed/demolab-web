@@ -14,13 +14,13 @@
             <Card :text="'CONSEJO A LA CASA'" />
           </div>
           <div class="tile is-3">
-            <Card :text="'ASAMBLEA CIUDADANA'"/>
+            <Card :text="'ASAMBLEA CIUDADANA'" />
           </div>
           <div class="tile is-3">
-            <Card :text="'HABILITACION Y ACELERACIÓN DE \n LA INNOVACIÓN'"/>
+            <Card :text="'HABILITACION Y ACELERACIÓN DE \n LA INNOVACIÓN'" />
           </div>
           <div class="tile is-3">
-            <Card :text="'RED DE ACCIÓN E \nINVESTIGACIÓN'"/>
+            <Card :text="'RED DE ACCIÓN E \nINVESTIGACIÓN'" />
           </div>
         </div>
       </div>
