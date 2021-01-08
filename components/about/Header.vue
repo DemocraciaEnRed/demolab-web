@@ -4,7 +4,7 @@
       <h3>Sobre nosotros</h3>
       <h1>¿Que es demolab?</h1>
       <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-      <img src="https://via.placeholder.com/450x250" alt="">
+      <img height="250" width="450" src="https://via.placeholder.com/450x250" alt="?">
     </div>
     <div>
       <div class="columns">

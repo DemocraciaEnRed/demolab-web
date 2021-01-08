@@ -4,9 +4,11 @@
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
+            height="60"
+            width="76"
             class="logo"
             src="/images/logo.png"
-            alt="Demo lab, concejo abierto"
+            alt="DemoLab logo"
           >
         </b-navbar-item>
       </template>
