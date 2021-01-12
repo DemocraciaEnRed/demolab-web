@@ -5,11 +5,13 @@
         Eventos
       </h1>
       <div class="events">
-        <b-datepicker
-          v-model="date"
-          inline
-          :unselectable-days-of-week="[0, 6]"
-        />
+        <no-ssr>
+          <b-datepicker
+            v-model="selectedDate"
+            inline
+            :unselectable-days-of-week="[0, 6]"
+          />
+        </no-ssr>
         <div class="event-list">
           <Event />
           <Event />
@@ -35,7 +37,7 @@ export default {
   },
   data () {
     return {
-      date: new Date()
+      selectedDate: new Date()
     }
   }
 }
