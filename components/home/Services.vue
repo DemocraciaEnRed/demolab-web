@@ -27,13 +27,13 @@
     </div>
     <article class="celest">
       <div class="container">
-        <div class="square" />
+        <div class="square column" />
         <div class="weird-card">
-          <h2>¿Quieres que DemoLab desarrolle un nuevo servicio o proyecto?</h2>
+          <h2>¿Quieres que DemoLab desarrolle un <br> nuevo servicio o proyecto?</h2>
           <div class="weird-content">
             <span>
-              Todas las ideas son bienvenidas.
-              Aporta y comenta.
+              Todas las ideas son bienvenidas.<br>
+              Aporta y comenta.<br>
               Construye colectivamente aquí.
             </span>
             <Button :secondary="true" />
@@ -80,6 +80,7 @@ export default {
   .celest{
     background-color: #d9d7ff;
     margin-top: 20px;
+    padding: 20px 0;
   }
   .celest .container{
     display: flex;
@@ -88,7 +89,7 @@ export default {
     background-color: white;
     display: inline-block;
     border-left: 10px solid blue;
-    height: 120px;
+    height: 150px;
     position: relative;
     top: 50px;
     left: -30px;
@@ -99,17 +100,41 @@ export default {
     position: relative;
     right: -40px;
   }
+  .weird-card h2{
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+  }
   .weird-content{
     display: flex;
   }
   @media only screen and (max-width: 768px) {
+    .celest{
+      margin-top: 0;
+    }
     .services{
       flex-direction: column;
+    }
+    .weird-card{
+      display: block;
+      height: auto;
+      top: 0;
+      left: 0;
+    }
+    .weird-content{
+      flex-direction: column;
+    }
+    .weird-content .boton{
+      right: 0;
+    }
+    .square{
+      display: none;
     }
     .services .description{
       text-align: center;
       margin-bottom: 20px;
       max-width: none;
     }
+
   }
 </style>

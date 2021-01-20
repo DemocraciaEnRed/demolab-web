@@ -3,7 +3,9 @@
 @import "~buefy/src/scss/buefy";// Import your other app styles
 
 @import "app";
-
+body{
+  overflow-x: hidden;
+}
 .boton{
   border: 0;
   padding: 10px;

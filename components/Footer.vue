@@ -130,4 +130,18 @@ export default {
   .terms{
     color: #333;
   }
+  @media only screen and (max-width: 768px) {
+    footer{
+      padding: 0px 20px;
+    }
+    .logos-footer{
+      max-width: 50px;
+    }
+    .democracy-os{
+      flex-direction: column;
+    }
+    .democracy-os div{
+      justify-content: center;
+    }
+  }
 </style>

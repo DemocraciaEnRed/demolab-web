@@ -19,7 +19,7 @@
           <Event />
         </div>
       </div>
-      <div class="has-text-centered">
+      <div class="has-text-centered mt-6">
         <Boton :text="'ver todos los eventos'" />
       </div>
     </div>
@@ -59,5 +59,20 @@ export default {
   align-content: space-between;
   margin-left: 5px;
 }
-
+@media only screen and (max-width: 768px) {
+  .events{
+    flex-direction: column;
+  }
+  .event-container{
+    display: flex;
+    justify-content: center;
+  }
+  .event-list{
+    flex-direction: column;
+  }
+  .dropdown.is-inline .dropdown-menu{
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>

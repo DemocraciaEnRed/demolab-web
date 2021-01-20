@@ -1,6 +1,6 @@
 <template>
   <div class="container stats">
-    <div id="challenges" class="columns">
+    <div id="challenges">
       <div class="stats-title secondary-bkg column">
         <div>
           <h4>Retos</h4>
@@ -81,7 +81,7 @@ export default {
   }
   .stats{
     position: relative;
-    top: -30px
+    top: -30px;
   }
   .stats-title{
     color: white;
@@ -108,5 +108,18 @@ export default {
     font-size: 30px;
     line-height: 30px;
     vertical-align: middle;
+  }
+  @media only screen and (max-width: 768px) {
+    .stats{
+      top: 0;
+    }
+    .stats-title{
+      display: flex;
+      justify-content: center;
+    }
+    .chall h2{
+      font-size: 44px;
+      line-height: 36px;
+    }
   }
 </style>

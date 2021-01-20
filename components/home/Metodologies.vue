@@ -78,4 +78,24 @@ export default {
     display: flex;
     color: black;
   }
+  @media only screen and (max-width: 768px) {
+    .links{
+      flex-direction: column;
+    }
+    .methods{
+      flex-direction: column;
+    }
+    .method-description{
+      text-align: center;
+      align-items: center;
+    }
+    .link-container h1{
+      text-align: center;
+    }
+    .link{
+      width: 100%;
+      justify-content: flex-start;
+      padding: 10px 20px;
+    }
+  }
 </style>

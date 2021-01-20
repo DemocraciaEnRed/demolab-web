@@ -13,18 +13,36 @@
       </div>
       <div class="participate-features">
         <div class="p-feature-grup">
-          <div>
-            <img src="/images/feat-ciudadania.png" alt="ilustracion de manos alzadas">
-            <span>Propone</span>
-          </div>
-          <div>
-            <img src="/images/feat-voto.png" alt="ilustracion de persona votando">
-            <span>Vota</span>
-          </div>
-          <div>
-            <img src="/images/feat-agenda.png" alt="ilustracion de agenda">
-            <span>Prioriza</span>
-          </div>
+          <table>
+            <tr class="feature-images">
+              <td>
+                <img src="/images/feat-ciudadania.png" alt="ilustracion de manos alzadas">
+              </td>
+              <td>
+                <img src="/images/feat-voto.png" alt="ilustracion de persona votando">
+              </td>
+              <td>
+                <img src="/images/feat-agenda.png" alt="ilustracion de agenda">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h2 class="secondary-color">
+                  Propone
+                </h2>
+              </td>
+              <td>
+                <h2 class="secondary-color">
+                  Vota
+                </h2>
+              </td>
+              <td>
+                <h2 class="secondary-color">
+                  Prioriza
+                </h2>
+              </td>
+            </tr>
+          </table>
         </div>
         <Button :text="'Participa e incide'" :secondary="true" />
       </div>
@@ -42,6 +60,7 @@ export default {
 </script>
 
 <style>
+
   .bogota{
     background-image: url('/images/bogota.png');
     padding: 50px 0;
@@ -54,14 +73,27 @@ export default {
   .logo-participate{
     width: 200px;
   }
-  .p-feature-grup{
+  .participate-features{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
   }
   .participate .boton{
     position: relative;
     right: -80px;
+  }
+  .feature-images img{
+    width: 94px;
+  }
+  .feature-images td{
+    vertical-align: bottom;
+  }
+  .p-feature-grup table{
+    text-align: center;
+    width: 100%;
+  }
+  .p-feature-grup table{
+    width: 100%;
   }
   .participate-main{
     position: relative;
@@ -69,5 +101,21 @@ export default {
     padding: 15px;
     margin-left: 50px;
   }
-
+  @media only screen and (max-width: 768px) {
+    .participate{
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    .participate-main{
+      text-align: center;
+      margin: 0;
+    }
+    .participate-features .boton{
+      right: 0;
+    }
+    .bogota{
+      padding: 10px;
+    }
+  }
 </style>
