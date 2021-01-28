@@ -14,3 +14,44 @@ h1,h2,h3,h4,h5,h6,.title,.subtitle{
     margin-left: unset;
   }
 }
+
+/*OVERIIDE CAROUSEL*/
+.carousel-indicator{
+  background-color: #5C49BA;
+  width: 45%!important;
+  right: 0;
+  position: absolute;
+  bottom: -33px;
+  padding: 10px 20px;
+  min-width: 250px;
+}
+.custom-item{
+  color: white;
+  font-family: 'Staatliches', $family-sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+.custom-item span{
+  font-size: 26px;
+  line-height: 27px;
+  display: inline-block;
+}
+
+.custom-item{
+  font-size: 20px;
+  line-height: 20px;
+}
+.indicator-item.is-active .custom-item{
+  font-size: 24px;
+}
+.indicator-item.is-active .custom-item span{
+  border-bottom: 3px solid white;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-indicator{
+    display: none!important;
+  }
+}
