@@ -22,6 +22,7 @@ export default {
 .success{
   margin: 50px 0;
   background-color: #FAFAFA;
+  padding: 20px;
 }
 .success h1{
   font-size: 40px;

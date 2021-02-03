@@ -42,7 +42,7 @@ export default {
     font-size: 40px;
   }
   .glossary{
-    padding: 50px 0;
+    padding: 50px 20px;
     color: white
   }
 </style>

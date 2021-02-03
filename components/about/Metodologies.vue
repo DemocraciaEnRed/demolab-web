@@ -56,4 +56,13 @@ export default {
     background-color: white;
     width: 175px;
   }
+  @media only screen and (max-width: 768px) {
+    .list{
+      flex-direction: column;
+      align-items: center;
+    }
+    .methodologies h1{
+      text-align: center;
+    }
+  }
 </style>
