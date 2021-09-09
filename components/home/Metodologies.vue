@@ -3,15 +3,15 @@
     <div class="container methods">
       <div class="method-list">
         <div class="method">
-          Metodologia 1
+          Concejo a la Casa
           <img src="https://via.placeholder.com/150" alt="">
         </div>
         <div class="method">
-          Metodologia 2
+          Asamblea Ciudadana
           <img src="https://via.placeholder.com/150" alt="">
         </div>
         <div class="method">
-          Metodologia 3
+          Agenda Ciudadana
           <img src="https://via.placeholder.com/150" alt="">
         </div>
       </div>

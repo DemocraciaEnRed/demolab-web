@@ -4,7 +4,7 @@
       <div class="services">
         <div class="description">
           <h2>Servicios y experiencias</h2>
-          <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </span>
+          <span>Trabajamos para consolidar un Concejo más abierto, innovador y transparente, por eso constantemente estamos desarrollado herramientas, metodologías y nuevos espacios para que la ciudadanía incida y participe activamente en los asuntos distritales. </span>
           <br>
           <br>
           <Button :primary="true" />

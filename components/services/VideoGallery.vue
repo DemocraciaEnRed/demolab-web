@@ -4,7 +4,7 @@
       <div class="columns main-video">
         <div class="column">
           <h1>Opini&oacute;n ciudadana</h1>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+          <p>Uno de los grandes retos del laboratorio de innovación política DemoLab es  consolidar un Concejo de Bogotá abierto, es decir, participativo, colaborativo, transparente e innovador , que apoyado en tecnología civica logre incidir en las diferentes metodologías y las  decisiones que toma el Concejo de Bogotá.</p>
         </div>
         <div class="column">
           <iframe

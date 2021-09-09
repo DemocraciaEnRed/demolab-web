@@ -4,7 +4,7 @@
     <div class="columns">
       <div class="column">
         <img src="https://via.placeholder.com/450x250" alt="">
-        <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et</p>
+        <p>Concejo a la Casa</p>
       </div>
       <div class="column">
         <img src="https://via.placeholder.com/450x250" alt="">
