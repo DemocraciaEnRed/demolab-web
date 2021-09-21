@@ -1,16 +1,18 @@
 <template>
   <div class="section">
     <div class="container">
-      <h1 class="title is-1 has-text-centered">
-        Próximamente
-      </h1>
+      <MetodologiesHeader />
     </div>
   </div>
 </template>
 
 <script>
+import MetodologiesHeader from '~/components/metodologies/header.vue'
 export default {
-
+  name: 'Metodologies',
+  components: {
+    MetodologiesHeader
+  }
 }
 </script>
 
