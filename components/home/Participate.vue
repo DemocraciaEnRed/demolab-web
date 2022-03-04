@@ -8,9 +8,9 @@
           alt="Demo lab, concejo abierto"
         >
         <p class="has-background-white parraf">
-          Participa en los procesos de toma de decisión<br> del Concejo de Bogotá para construir entre<br> todos y todas una mejor ciudad
+          Participa en los procesos de toma de decisión del Concejo de Bogotá para construir entre todos y todas una mejor ciudad
         </p>
-              <div class="participate-features">
+      <div class="participate-features">
         <!-- <div class="p-feature-grup">
           <table>
             <tr class="feature-images">
@@ -79,8 +79,8 @@ export default {
     /* justify-content: center; */
   }
   .participate .boton{
-    position: relative;
-    right: -80px;
+    /* position: relative;
+    right: -80px; */
   }
   .feature-images img{
     width: 94px;
@@ -89,7 +89,7 @@ export default {
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
     display: flex;
     align-items: center;

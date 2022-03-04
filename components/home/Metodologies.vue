@@ -16,12 +16,12 @@
         </div>
       </div>
       <div class="method-description">
-        <h1>Metodologías</h1>
+        <h1>Proyectos</h1>
         <p>Conoce, descarga y aplica las metodologías de apertura de DemoLab</p>
         <Button :text="'ir a metodologias'" />
       </div>
     </div>
-    <div class="link-container">
+    <!-- <div class="link-container">
       <div class="container">
         <h1>Enlaces</h1>
       </div>
@@ -31,17 +31,17 @@
         <Link :title="'Proyectos de innovación \n política en el mundo'" :color="'rgba(217, 215, 255, 0.8)'" />
         <Link :title="'Data sets'" :color="'rgba(118, 219, 122, 0.57)'" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-import Link from './Link.vue'
+// import Link from './Link.vue'
 
 export default {
   name: 'Metodologies',
   components: {
-    Link
+    // Link
   }
 }
 </script>

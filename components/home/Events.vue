@@ -5,14 +5,15 @@
         Eventos
       </h1>
       <div class="events">
-        <no-ssr>
+        <!-- <no-ssr>
           <b-datepicker
             v-model="selectedDate"
             inline
             :unselectable-days-of-week="[0, 6]"
           />
-        </no-ssr>
+        </no-ssr> -->
         <div class="event-list">
+          <!-- hay que modificar el componente event segun figma -->
           <Event />
           <Event />
           <Event />

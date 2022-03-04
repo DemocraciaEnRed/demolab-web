@@ -11,7 +11,7 @@
         </div>
         <div class="tile is-ancestor">
           <div class="tile is-3">
-            <Card :text="'Participación e Incidencia'" imag="~/assets/participacion_mano.png" :imgAlt="'imagen participacion e incidencia'" />
+            <Card :text="'Participación e Incidencia'" imag="participacion_mano.png" :imgAlt="'imagen participacion e incidencia'" />
           </div>
           <div class="tile is-3">
             <Card :text="'Aceleración a la Innovación'" imag="~/assets/participacion_rayo.png" :imgAlt="'aceleracio na la innovacion'"/>
@@ -77,7 +77,7 @@ export default {
     height: 300px;
     width: 50%;
     position: relative;
-    top: -20px;
+    top: -30px;
     left: -150px;
   }
   .celest{
