@@ -2,11 +2,11 @@
   <div class="card">
     <div class="card-image">
       <figure class="image is-4by3">
-        <img :src="img" :alt="imgAlt">
+        <img :src="imag" :alt="imgAlt">
       </figure>
     </div>
     <div class="card-content">
-      <div class="content">
+      <div class="content is-uppercase">
         <strong> {{ text }} </strong>
       </div>
     </div>
@@ -21,7 +21,7 @@ export default {
       type: String,
       default: 'Hola mundo'
     },
-    img: {
+    imag: {
       type: String,
       default: 'https://bulma.io/images/placeholders/1280x960.png'
     },

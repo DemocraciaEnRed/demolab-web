@@ -21,9 +21,9 @@ export default {
   data () {
     return {
       carousels: [
-        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>' },
-        { text: 'Evento proximo', color: 'info', indicator: 'Evento </br> <span>proximo</span>' },
-        { text: 'Otro evento proximo', color: 'success', indicator: 'Otro </br> <span>Evento</span>' }
+        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', img: 'Banner_demolab.png' },
+        { text: 'Evento proximo', color: 'info', indicator: 'Evento </br> <span>proximo</span>', img: '' },
+        { text: 'Otro evento proximo', color: 'success', indicator: 'Otro </br> <span>Evento</span>', img: '' }
       ]
     }
   }

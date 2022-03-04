@@ -3,7 +3,7 @@
     <div class="container">
       <div class="services">
         <div class="description">
-          <h2>Servicios y experiencias</h2>
+          <h2>Servicios</h2>
           <span>Trabajamos para consolidar un Concejo más abierto, innovador y transparente, por eso constantemente estamos desarrollado herramientas, metodologías y nuevos espacios para que la ciudadanía incida y participe activamente en los asuntos distritales. </span>
           <br>
           <br>
@@ -11,30 +11,32 @@
         </div>
         <div class="tile is-ancestor">
           <div class="tile is-3">
-            <Card :text="'CONSEJO A LA CASA'" />
+            <Card :text="'Participación e Incidencia'" imag="~/assets/participacion_mano.png" :imgAlt="'imagen participacion e incidencia'" />
           </div>
           <div class="tile is-3">
-            <Card :text="'ASAMBLEA CIUDADANA'" />
+            <Card :text="'Aceleración a la Innovación'" imag="~/assets/participacion_rayo.png" :imgAlt="'aceleracio na la innovacion'"/>
           </div>
           <div class="tile is-3">
-            <Card :text="'HABILITACION Y ACELERACIÓN DE \n LA INNOVACIÓN'" />
-          </div>
-          <div class="tile is-3">
-            <Card :text="'RED DE ACCIÓN E \nINVESTIGACIÓN'" />
+            <Card :text="'Gestión del Conocimiento'" />
           </div>
         </div>
       </div>
     </div>
     <article class="celest">
       <div class="container">
-        <div class="square column" />
+        <div class="square column" >
+                    <iframe
+            src="https://player.vimeo.com/video/446827718"
+            width="1152"
+            height="348"
+            frameborder="0"
+          />
+        </div>
         <div class="weird-card">
-          <h2>¿Quieres que DemoLab desarrolle un <br> nuevo servicio o proyecto?</h2>
+          <h2>¿Qué es DemoLab? </h2>
           <div class="weird-content">
             <span>
-              Todas las ideas son bienvenidas.<br>
-              Aporta y comenta.<br>
-              Construye colectivamente aquí.
+              CONOCE MÁS SOBRE EL LABORATORIO<br> DE CONCEJO ABIERTO DE BOGOTÁ
             </span>
             <Button :secondary="true" />
           </div>
@@ -71,16 +73,18 @@ export default {
     color: #5C49BA
   }
   .square{
-    background-color: #ccc;
+    /* background-color: #ccc; */
     height: 300px;
     width: 50%;
     position: relative;
-    top: -20px
+    top: -20px;
+    left: -150px;
   }
   .celest{
     background-color: #d9d7ff;
     margin-top: 20px;
-    padding: 20px 0;
+    padding: 20px;
+    padding-bottom: 50px;
   }
   .celest .container{
     display: flex;
@@ -92,7 +96,7 @@ export default {
     height: 150px;
     position: relative;
     top: 50px;
-    left: -30px;
+    left: -220px;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }

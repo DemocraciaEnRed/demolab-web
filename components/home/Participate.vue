@@ -1,18 +1,17 @@
 <template>
-  <div class="bogota">
-    <div class="participate">
+  <div class=" columns bogota">
+    <div class="column is-one-third participate">
       <div class="participate-main">
         <img
           class="logo-participate"
           src="/images/logo.png"
           alt="Demo lab, concejo abierto"
         >
-        <p>
-          Participa en los procesos de toma de decisión del Concejo de Bogotá para construir entre todos y todas una mejor ciudad
+        <p class="has-background-white parraf">
+          Participa en los procesos de toma de decisión<br> del Concejo de Bogotá para construir entre<br> todos y todas una mejor ciudad
         </p>
-      </div>
-      <div class="participate-features">
-        <div class="p-feature-grup">
+              <div class="participate-features">
+        <!-- <div class="p-feature-grup">
           <table>
             <tr class="feature-images">
               <td>
@@ -43,8 +42,9 @@
               </td>
             </tr>
           </table>
-        </div>
+        </div> -->
         <Button :text="'Participa e incide'" :secondary="true" />
+      </div>
       </div>
     </div>
   </div>
@@ -66,7 +66,6 @@ export default {
     padding: 50px 0;
   }
   .participate{
-    background-color: white;
     width: 60%;
     display: flex;
   }
@@ -74,9 +73,10 @@ export default {
     width: 200px;
   }
   .participate-features{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 20px;
+    display: inline-block;
+    flex-direction: row;
+    /* justify-content: center; */
   }
   .participate .boton{
     position: relative;
@@ -84,6 +84,16 @@ export default {
   }
   .feature-images img{
     width: 94px;
+  }
+  .parraf{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
   }
   .feature-images td{
     vertical-align: bottom;
