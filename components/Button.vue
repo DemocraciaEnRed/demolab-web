@@ -1,5 +1,5 @@
 <template>
-  <a class="boton" :class="{ full: fullwidth, secondary: secondary, primary: primary}">
+  <a class="boton" :href="urlLink" :class="{ full: fullwidth, secondary: secondary, primary: primary}" :style="`background-color:ccolor`">
     {{ text }}
     <span class="material-icons">
       {{ icon }}
@@ -11,6 +11,10 @@
 export default {
   name: 'Button',
   props: {
+    uelLink: {
+      type: String,
+      default: '.'
+    },
     fullwidth: {
       type: Boolean,
       default: false
@@ -30,11 +34,17 @@ export default {
     icon: {
       type: String,
       default: 'double_arrow'
+    },
+    ccolor: {
+      type: String,
+      default: '#5C49BA'
     }
   }
 }
 </script>
 
 <style>
-
+.boton{
+  background-color: #5C49BA;
+}
 </style>

@@ -7,7 +7,7 @@
           src="/images/logo.png"
           alt="Demo lab, concejo abierto"
         >
-        <p class="has-background-white parraf">
+        <p class="has-background-bl parrafo">
           Participa en los procesos de toma de decisión del Concejo de Bogotá para construir entre todos y todas una mejor ciudad
         </p>
       <div class="participate-features">
@@ -85,7 +85,7 @@ export default {
   .feature-images img{
     width: 94px;
   }
-  .parraf{
+  .parrafo{
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;

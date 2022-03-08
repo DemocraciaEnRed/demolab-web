@@ -22,24 +22,43 @@
           </span> -->
         </div>
       </div>
-      <div class="container section columns">
-        <div class="column box">
-          <img src="~/assets/pot.png" alt="">
-          <h3>la ruta pot</h3>
-        </div>
-        <div class="column box">
-          <img src="~/assets/dialogok.png" alt="">
-          <h3>la ruta pot</h3>
-        </div>
-        <div class="column box">
-          <img src="~/assets/manifesta.png" alt="">
-          <h3>la ruta pot</h3>
-        </div>
-        <div class="column box">
-         <img src="~/assets/agenda-ciudadana.png" alt="">
-          <h3>la ruta pot</h3>
+      <div class="line">
+        <div class="container section columns ml-6">
+          <div class="column box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
+            <div class="is-align-content-center">
+              <img src="~/assets/pot.png" alt="" class="image is-150x150 ml-6 pl-5">
+            </div>
+            <div class="text-box is-align-content-center">
+              <h3>la ruta pot</h3>
+            </div>
+          </div>
+          <div class="column box">
+            <div>
+              <img src="~/assets/dialogok.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
+            </div>
+            <div class="text-box pt-6 mt-1">
+              <h3>la ruta pot</h3>
+            </div>
+          </div>
+          <div class="column box">
+            <div>
+              <img src="~/assets/manifesta.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
+            </div>
+            <div class="text-box pt-6 mt-3">
+              <h3>la ruta pot</h3>
+            </div>
+          </div>
+          <div class="column box">
+            <div>
+              <img src="~/assets/agenda-ciudadana.png" alt="" class="image is-150x150 ml-6 pl-5">
+            </div>
+          <div class="text-box pt-5">
+              <h3>la ruta pot</h3>
+          </div>
+          </div>
         </div>
       </div>
+
       <!-- <div class="first-challenge column chall">
         <h2 class="feature-number">
           2
@@ -148,12 +167,38 @@ export default {
   line-height: 30px;
   vertical-align: middle;
 }
-
+hr{
+  margin: 0;
+  height:200px;
+  background-color:red;
+  z-index: 0;
+  position: relative;
+}
+.line{
+  background-color: #584DB3;
+  height: 150px;
+  margin-bottom: 250px;
+}
 .box {
-  border: solid 1px black;
+  z-index: 1000;
   width: 265px;
   height: 265px;
   margin: 10px;
+  justify-content: center;
+  border-bottom: 5px solid rgba(98, 102, 105, 0.19);
+  /* -webkit-box-shadow: 0px 5px 12px -1px rgba(0,0,0,0.85);
+  box-shadow: 0px 5px 12px -1px rgba(0,0,0,0.85); */
+}
+.text-box{
+
+  font-family: Staatliches;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #584DB3;
 }
 @media only screen and (max-width: 768px) {
   .stats {

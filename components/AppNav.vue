@@ -28,9 +28,9 @@
         <nuxt-link to="/metodologias" class="navbar-item">
           Metodologias
         </nuxt-link>
-        <nuxt-link to="/contacto" class="navbar-item">
+        <!-- <nuxt-link to="/contacto" class="navbar-item">
           Contacto
-        </nuxt-link>
+        </nuxt-link> -->
       </template>
     </b-navbar>
   </div>

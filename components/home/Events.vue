@@ -14,27 +14,27 @@
         </no-ssr> -->
         <div class="event-list">
           <!-- hay que modificar el componente event segun figma -->
-          <Event />
-          <Event />
-          <Event />
-          <Event />
+          <Event fecha="28 de Junio" title="eventus" description="El Concejo de Bogotá realizó la primera Rendición de Cuentas de 2021 y se establecieron 4 fases de participación para que la ciudadanía participara activamente" urlLink="algo" color="'#76DB7A'"/>
+          <Event fecha="25 de Agosto" title="Toolkit de Genero" description="El DemoLab junto a las organizaciones aliadas diseñó diferentes herramientas para incorporarlas en las funciones del Concejo de Bogotá" urlLink="algo" color="'#76DB7A'"/>
+          <Event fecha="10 de septiembre" title="#LaRutaPOT" description="Se diseñó e implementó la estrategia de participación para deliberar con la ciudadanía opiniones y recomendaciones sobre el POT (Plan de Ordenamiento Territorial)" urlLink="algo" color="'#76DB7A'"/>
+          <Event fecha="10 de Diciembre" title="Cultura de la Innovación" description="El Concejo de Bogotá realizó la primera Rendición de Cuentas de 2021 y se establecieron 4 fases de participación para que la ciudadanía participara activamente" urlLink="algo" color="'#76DB7A'"/>
         </div>
       </div>
-      <div class="has-text-centered mt-6">
+      <!-- <div class="has-text-centered mt-6">
         <Boton :text="'ver todos los eventos'" />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-import Boton from '../Button.vue'
+// import Boton from '../Button.vue'
 import Event from './Event.vue'
 
 export default {
   components: {
-    Event,
-    Boton
+    Event
+    // Boton
   },
   data () {
     return {

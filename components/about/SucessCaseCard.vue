@@ -51,6 +51,9 @@ export default {
 </script>
 
 <style>
+  .succes-case{
+    width: 500px;
+  }
   .event{
     background-color: white;
     margin: 0px 5px;
@@ -59,11 +62,29 @@ export default {
     display: flex;
     align-items: center;
   }
-  .event-title span{
+  .case-title span{
     margin-right: 15px;
+
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+
+    color: #000000;
+
   }
   .event-description, .event-title{
     padding: 10px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #090909;
+
   }
   .event-description{
     text-align: center;

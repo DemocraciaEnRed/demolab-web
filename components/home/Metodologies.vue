@@ -3,22 +3,22 @@
     <div class="container methods">
       <div class="method-list">
         <div class="method">
-          Concejo a la Casa
-          <img src="https://via.placeholder.com/150" alt="">
+          #LARUTAPOT
+          <img src="~assets/RutaPOT 1.png" alt="">
         </div>
         <div class="method">
-          Asamblea Ciudadana
-          <img src="https://via.placeholder.com/150" alt="">
+          Cultura de la Innovación
+          <img src="~assets/ToolkitGenero 1.png" alt="">
         </div>
         <div class="method">
-          Agenda Ciudadana
-          <img src="https://via.placeholder.com/150" alt="">
+          tOOLKIT DE gENERO
+          <img src="~assets/CulturaInnovacion 1.png" alt="">
         </div>
       </div>
       <div class="method-description">
         <h1>Proyectos</h1>
         <p>Conoce, descarga y aplica las metodologías de apertura de DemoLab</p>
-        <Button :text="'ir a metodologias'" />
+        <Button :text="'ir a proyectos'" />
       </div>
     </div>
     <!-- <div class="link-container">
@@ -77,6 +77,9 @@ export default {
   .links{
     display: flex;
     color: black;
+  }
+  .method img{
+    border: 2px solid #5C49BA;
   }
   @media only screen and (max-width: 768px) {
     .links{
