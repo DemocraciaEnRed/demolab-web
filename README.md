@@ -37,8 +37,6 @@ Sino, en los componentes `.vue` podes agregar un `<style lang="scss" scoped>  </
 </style>
 ```
 
-
-
 Luego te voy a dejar escrito mas detalles del repositorio. Pero para que te des una idea: Tecnologias a usar
 
 * VueJS
