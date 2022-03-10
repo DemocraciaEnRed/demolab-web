@@ -3,7 +3,7 @@
     <h3 class="case-title text-center" :style="{ color: color }">
       {{ title }}
     </h3>
-    <p class="case-description">
+    <p class="case-description py-3">
       {{ description }}
     </p>
     <p v-if="readMore" class="case-description">
@@ -51,18 +51,16 @@ export default {
 </script>
 
 <style>
-  .succes-case{
-    width: 500px;
+  .sucess-case{
+    height: 270px ;
+    position: relative;
   }
   .event{
     background-color: white;
     margin: 0px 5px;
   }
-  .event-title{
-    display: flex;
-    align-items: center;
-  }
-  .case-title span{
+
+  .case-title {
     margin-right: 15px;
 
     font-family: Staatliches;
@@ -74,19 +72,24 @@ export default {
     color: #000000;
 
   }
-  .event-description, .event-title{
-    padding: 10px;
+  .case-description, .event-title{
 
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
+    padding-top: 20px;
     color: #090909;
 
   }
   .event-description{
     text-align: center;
+  }
+  .boton{
+    margin-left:300px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
   }
 </style>

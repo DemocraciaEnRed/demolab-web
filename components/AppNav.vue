@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container navFont">
     <b-navbar>
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
@@ -12,7 +12,7 @@
           >
         </b-navbar-item>
       </template>
-      <template slot="end">
+      <template slot="start">
         <nuxt-link to="/" class="navbar-item">
           Inicio
         </nuxt-link>
@@ -31,6 +31,18 @@
         <!-- <nuxt-link to="/contacto" class="navbar-item">
           Contacto
         </nuxt-link> -->
+        <div></div>
+      </template>
+      <template slot="end">
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+          <img
+            height="60"
+            width="100%"
+            class="logo"
+            src="~assets/consejo-bogota.png"
+            alt="DemoLab logo"
+          >
+        </b-navbar-item>
       </template>
     </b-navbar>
   </div>
@@ -45,6 +57,13 @@ export default {
 </script>
 
 <style>
+.navFont{
+  font-family: Staatliches;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
   .navbar-brand{
     background-color: white;
   }

@@ -1,29 +1,29 @@
 <template>
   <div class="container methodologies">
-    <h1>Metodologias</h1>
+    <h1>Equipo</h1>
     <div class="list">
       <div class="method">
-        <h3>Metodologia #1</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
       <div class="method">
-        <h3>Metodologia #2</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
       <div class="method">
-        <h3>Metodologia #3</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
       <div class="method">
-        <h3>Metodologia #4</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
       <div class="method">
-        <h3>Metodologia #5</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
       <div class="method">
-        <h3>Metodologia #6</h3>
+        <h3>Nombre</h3>
         <div />
       </div>
     </div>
@@ -51,9 +51,9 @@ export default {
     text-align: center;
   }
   .method div{
-    height: 100px;
+    height: 207px;
     border: 1px solid #D6D6D6;
     background-color: white;
-    width: 175px;
+    width: 216px;
   }
 </style>
