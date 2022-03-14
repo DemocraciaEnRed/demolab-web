@@ -1,5 +1,5 @@
 <template>
-  <a class="boton" :href="urlLink" :class="{ full: fullwidth, secondary: secondary, primary: primary}" :style="`background-color:ccolor`">
+  <a class="boton" :href="urlLink" :class="{ full: fullwidth, secondary: secondary, primary: primary}" :style="`background-color:${ccolor}`">
     {{ text }}
     <span class="material-icons">
       {{ icon }}
@@ -11,7 +11,7 @@
 export default {
   name: 'Button',
   props: {
-    uelLink: {
+    urlLink: {
       type: String,
       default: '.'
     },

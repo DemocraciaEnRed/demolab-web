@@ -1,26 +1,14 @@
 <template>
   <div>
     <b-carousel progress progress-type="is-primary">
-      <b-carousel-item v-for="(item, i) in items" :key="i">
-        <section>
+      <b-carousel-item v-for="(item, i) in items" :key="i" class="p-6">
+        <section  class="is-flex is-justify-content-center">
           <img :src="require(`@/assets/slide/${item.foto}`)" alt="">
         </section>
+        <div class="carousel-indicator is-inside is-bottom"><a class="indicator-item"><span class="indicator-style is-dots"></span></a><a class="indicator-item is-active"><span class="indicator-style is-dots"></span></a><a class="indicator-item"><span class="indicator-style is-dots"></span></a></div>
       </b-carousel-item>
     </b-carousel>
   </div>
-  <!-- <div class="section">
-        <h1 class="has-text-centered">Nuestro ADN</h1>
-        <div class="is-flex is-justify-content-center justy">
-            <div class="container section columns">
-                <div class="column">
-                    <img src="~assets/apertura_a.png" alt="">
-                </div>
-                <div class="column">
-                    <img src="~assets/apertura_b.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div> -->
 </template>
 
 <script>
@@ -41,5 +29,11 @@ export default {
 <style scoped>
 .justy {
   margin-left: 100px;
+}
+.carousel .carousel-indicator{
+  width: 100% !important;
+}
+.carousel-arrow .icon.has-icons-left, .carousel-arrow .icon.has-icons-right{
+  background-color: #584DB3 !important;
 }
 </style>

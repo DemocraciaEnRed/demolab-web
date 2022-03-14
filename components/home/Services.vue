@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="center mt-6">
     <div class="container">
       <div class="services">
         <div class="description">
@@ -7,18 +7,36 @@
           <span>Trabajamos para consolidar un Concejo más abierto, innovador y transparente, por eso constantemente estamos desarrollado herramientas, metodologías y nuevos espacios para que la ciudadanía incida y participe activamente en los asuntos distritales. </span>
           <br>
           <br>
-          <Button :primary="true" />
+          <Button :primary="true" :urlLink="'/servicios'"/>
         </div>
-        <div class="tile is-ancestor">
-          <div class="tile is-3">
+        <div class="tile is-ancestor is-flex is-justify-content-center">
+          <div class="card mx-6">
+            <div class="card-image">
+              <img src="~/assets/participacion_mano.png" alt="imagen participacion e incidencia">
+            </div>
+            <div class="title is-4 has-text-centered mt-3">Participación e Incidencia</div>
+          </div>
+          <div class="card mx-6">
+            <div class="card-image">
+              <img src="~/assets/participacion_rayo.png" alt="aceleracio na la innovacion">
+            </div>
+            <div class="title is-4 has-text-centered mt-3">Aceleración a la Innovación</div>
+          </div>
+          <div class="card mx-6">
+            <div class="card-image">
+              <img src="~/assets/gestion_foco.png" alt="gestion del conocimiento">
+            </div>
+            <div class="title is-4 has-text-centered mt-3">Gestión del Conocimiento</div>
+          </div>
+          <!-- <div class="tile is-3">
             <Card :text="'Participación e Incidencia'" imag="participacion_mano.png" :imgAlt="'imagen participacion e incidencia'" />
           </div>
           <div class="tile is-3">
-            <Card :text="'Aceleración a la Innovación'" imag="~/assets/participacion_rayo.png" :imgAlt="'aceleracio na la innovacion'"/>
+            <Card :text="'Aceleración a la Innovación'" :imag="`${fotos.foco}`" :imgAlt="'aceleracio na la innovacion'"/>
           </div>
           <div class="tile is-3">
             <Card :text="'Gestión del Conocimiento'" />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -47,15 +65,18 @@
 </template>
 
 <script>
-import Card from '../Card.vue'
+// import Card from '../Card.vue'
 import Button from '../Button.vue'
 
 export default {
-  components: { Card, Button }
+  components: { Button }
 }
 </script>
 
 <style>
+  /* .center{
+    margin-left: 50px;
+  } */
   .services{
     display: flex;
     flex-direction: row;
@@ -94,16 +115,16 @@ export default {
     display: inline-block;
     border-left: 10px solid blue;
     height: 150px;
-    position: relative;
+    /* position: relative; */
     top: 50px;
     left: -220px;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  .weird-card .boton{
-    position: relative;
+  /* .weird-card .boton{
+    position: absolute;
     right: -40px;
-  }
+  } */
   .weird-card h2{
     font-size: 25px;
     line-height: 31px;

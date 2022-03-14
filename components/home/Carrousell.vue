@@ -1,15 +1,13 @@
 <template>
   <b-carousel :indicator-inside="false">
     <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-      <section :class="`hero is-medium is-${carousel.color}`">
+      <section class="relative">
         <div class="hero-body has-text-centered">
-          <h1 class="title">
-            {{ carousel.text }}
-          </h1>
+           <img :src="require(`@/assets/${carousel.foto}`)" alt="">
         </div>
       </section>
     </b-carousel-item>
-    <template slot="indicators"  slot-scope="props">
+    <template class="absolute" slot="indicators"  slot-scope="props">
       <span class="custom-item" v-html="carousels[props.i].indicator"/>
     </template>
   </b-carousel>
@@ -21,11 +19,21 @@ export default {
   data () {
     return {
       carousels: [
-        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', img: 'Banner_demolab.png' },
-        { text: 'Evento proximo', color: 'info', indicator: 'Evento </br> <span>proximo</span>', img: '' },
-        { text: 'Otro evento proximo', color: 'success', indicator: 'Otro </br> <span>Evento</span>', img: '' }
+        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png' },
+        { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png' },
+        { text: 'Otro evento proximo', color: 'success', indicator: 'Participación </br> <span>Ciudadana</span>', foto: 'participaciondemo.png' },
+        { text: 'Otro evento proximo', color: 'success', indicator: 'Asamblea </br> <span>Ciudadana</span>', foto: 'asamblea.png' }
       ]
     }
   }
 }
 </script>
+<style scoped>
+  .relative{
+    position: relative;
+  }
+  .absolute{
+    position: absolute;
+    top: 0px;
+  }
+</style>

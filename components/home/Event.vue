@@ -1,24 +1,25 @@
 <template>
-<div class="card">
+<div class="card card-config">
   <div class="card-image">
     <figure class="image">
-      <img src="~assets/rendición-cuentas.png" alt="">
+      <img :src="require(`@/assets/eventos/${this.foto}`)" alt="">
     </figure>
   </div>
-  <div class="card-content">
-     <div class="media-content">
-        <p class="title is-4">{{fecha}}</p>
-        <p class="subtitle is-3">{{ title }}</p>
+  <div class="card-content card-content-config has-text-centerer">
+     <div class="media-content media-content-config">
+        <div class="title is-4">{{fecha}}</div>
+        <div class="subtitle is-4" :style="`color:${this.color} !important`"><p class="has-text-center">{{ title }}</p></div>
       </div>
+    <div class="content content-config">
+      <p class="event-description pb-6">
+        {{ description }}
+      </p>
+        <br>
+        <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
+    </div>
   </div>
-  <div class="content">
-    <p class="event-description">
-      {{ description }}
-    </p>
-      <br>
-      <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
-  </div>
-  <Button :fullwidth="true" :icon="'add'" :ccolor="color" />
+
+  <Button :fullwidth="true" :icon="'add'" :ccolor="`${this.color}`" :urlLink="'/metodologias'"/>
       <!-- <span class="material-icons">{{ icon }}</span> -->
 
 </div>
@@ -55,6 +56,10 @@ export default {
       type: String,
       default: 'Title'
     },
+    foto: {
+      type: String,
+      default: '300.png'
+    },
     icon: {
       type: String,
       default: 'add'
@@ -68,9 +73,18 @@ export default {
 </script>
 
 <style>
-  .card{
+  .card-config{
     max-width: 267px;
-    max-height: 500px;
+    min-height: 450px;
+  }
+  .card-content-config{
+    margin-bottom: 10px !important;
+  }
+  .media-content-config{
+    height: 55px;
+  }
+  .content-config{
+    height: 124px;
   }
   .event{
     background-color: white;
@@ -88,5 +102,10 @@ export default {
   }
   .event-description{
     text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
   }
 </style>

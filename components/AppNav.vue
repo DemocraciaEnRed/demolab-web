@@ -22,11 +22,11 @@
         <nuxt-link to="/servicios" class="navbar-item">
           Servicios y experiencias
         </nuxt-link>
-        <nuxt-link to="/eventos" class="navbar-item">
+        <!-- <nuxt-link to="/eventos" class="navbar-item">
           Eventos
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link to="/metodologias" class="navbar-item">
-          Metodologias
+          Proyectos
         </nuxt-link>
         <!-- <nuxt-link to="/contacto" class="navbar-item">
           Contacto

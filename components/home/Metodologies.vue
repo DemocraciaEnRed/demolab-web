@@ -17,8 +17,8 @@
       </div>
       <div class="method-description">
         <h1>Proyectos</h1>
-        <p>Conoce, descarga y aplica las metodologías de apertura de DemoLab</p>
-        <Button :text="'ir a proyectos'" />
+        <p>Generamos espacios de participación incidente y mecanismos innovadores para responder a los retos distritales</p>
+        <Button :urlLink="'/metodologias'" />
       </div>
     </div>
     <!-- <div class="link-container">
@@ -56,6 +56,7 @@ export default {
     padding-top: 30px;
   }
   .method-description{
+    max-width: 390px;
     align-content: center;
     display: flex;
     flex-direction: column;

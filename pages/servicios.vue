@@ -1,22 +1,24 @@
 <template>
   <div>
-    <VideoGallery />
-    <SuccessCases />
-    <Projects />
+    <!-- <VideoGallery /> -->
+    <!-- <SuccessCases />
+    <Projects /> -->
+    <allPage />
   </div>
 </template>
 
 <script>
-import VideoGallery from '~/components/services/VideoGallery.vue'
-import SuccessCases from '~/components/services/SuccessCases.vue'
-import Projects from '~/components/services/Projects.vue'
-
+// import VideoGallery from '~/components/services/VideoGallery.vue'
+// import SuccessCases from '~/components/services/SuccessCases.vue'
+// import Projects from '~/components/services/Projects.vue'
+import allPage from '~/components/services/all.vue'
 export default {
   name: 'Services',
   components: {
-    VideoGallery,
-    SuccessCases,
-    Projects
+    // VideoGallery,
+    allPage
+    // SuccessCases,
+    // Projects
   },
   head () {
     return {

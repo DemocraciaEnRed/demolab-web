@@ -1,6 +1,6 @@
 <template>
-  <div class="section">
-    <div class="container">
+  <div class="">
+    <div class="">
       <MetodologiesHeader />
     </div>
   </div>
