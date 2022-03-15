@@ -33,10 +33,10 @@
         <div class="section">
             <h1 class="has-text-centered">cifras de experiencias exitosas</h1>
             <div class="container is-flex is-flex-wrap-wrap is-justify-content-center">
-                <img src="~assets/servicios/LaRutaPOT.png" alt="">
-                <img src="~assets/servicios/Toolkit.png" alt="">
-                <img src="~assets/servicios/Habilitacion.png" alt="">
-                <img src="~assets/servicios/Conocimiento.png" alt="">
+                <img class="p-6" src="~assets/servicios/LaRutaPOT.png" alt="">
+                <img class="p-6" src="~assets/servicios/Toolkit.png" alt="">
+                <img class="p-6" src="~assets/servicios/Habilitacion.png" alt="">
+                <img class="p-6" src="~assets/servicios/Conocimiento.png" alt="">
             </div>
         </div>
     </div>

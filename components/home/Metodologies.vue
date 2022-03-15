@@ -18,7 +18,7 @@
       <div class="method-description">
         <h1>Proyectos</h1>
         <p>Generamos espacios de participación incidente y mecanismos innovadores para responder a los retos distritales</p>
-        <Button :urlLink="'/metodologias'" />
+        <Button :transparent="true" :color="'$primary'" :text="'ir a proyectos'" :urlLink="'/metodologias'" />
       </div>
     </div>
     <!-- <div class="link-container">
@@ -54,6 +54,8 @@ export default {
   .methods-container{
     background: white;
     padding-top: 30px;
+    margin-bottom: 80px;
+    border-bottom: 2px solid $secondary;
   }
   .method-description{
     max-width: 390px;
@@ -71,6 +73,16 @@ export default {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3E3E3E;
+
   }
   .methods{
     display: flex;

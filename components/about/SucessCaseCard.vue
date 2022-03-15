@@ -9,8 +9,8 @@
     <p v-if="readMore" class="case-description">
       {{ moreDescription }}
     </p>
-    <button @click="showMore" v-if="!readMore" class="boton"><span class="mateirla-icons">Leer más</span></button>
-    <button @click="showLess" v-if="readMore" class="boton"><span class="mateirla-icons">Leer Menos</span></button>
+    <button @click="showMore" v-if="!readMore" class="boton-config"><span class="mateirla-icons">Leer más</span></button>
+    <button @click="showLess" v-if="readMore" class="boton-config"><span class="mateirla-icons">Leer Menos</span></button>
   </div>
 </template>
 
@@ -86,7 +86,7 @@ export default {
   .event-description{
     text-align: center;
   }
-  .boton{
+  .boton-config{
     margin-left:300px;
     position: absolute;
     right: 0px;

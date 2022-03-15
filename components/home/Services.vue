@@ -7,7 +7,7 @@
           <span>Trabajamos para consolidar un Concejo más abierto, innovador y transparente, por eso constantemente estamos desarrollado herramientas, metodologías y nuevos espacios para que la ciudadanía incida y participe activamente en los asuntos distritales. </span>
           <br>
           <br>
-          <Button :primary="true" :urlLink="'/servicios'"/>
+          <Button :primary="true" :urlLink="'/servicios'" :ccolor="'#5fd1bc'"/>
         </div>
         <div class="tile is-ancestor is-flex is-justify-content-center">
           <div class="card mx-6">
@@ -50,13 +50,15 @@
             frameborder="0"
           />
         </div>
-        <div class="weird-card">
+        <div class="weird-card  weird-content-config">
           <h2>¿Qué es DemoLab? </h2>
           <div class="weird-content">
             <span>
               CONOCE MÁS SOBRE EL LABORATORIO<br> DE CONCEJO ABIERTO DE BOGOTÁ
             </span>
-            <Button :secondary="true" />
+            <div class="boton-config">
+              <Button  :secondary="true" />
+            </div>
           </div>
         </div>
       </div>
@@ -115,16 +117,20 @@ export default {
     display: inline-block;
     border-left: 10px solid blue;
     height: 150px;
-    /* position: relative; */
-    top: 50px;
-    left: -220px;
+    width: 455px;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  /* .weird-card .boton{
-    position: absolute;
-    right: -40px;
-  } */
+  .boton-config{
+    position: absolute !important;
+    right: -35px !important;
+    bottom: 30px !important;
+  }
+  .weird-content-config{
+    position: relative;
+    top: 50px;
+    left: -286px;
+  }
   .weird-card h2{
     font-size: 25px;
     line-height: 31px;

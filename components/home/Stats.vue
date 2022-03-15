@@ -2,10 +2,13 @@
   <div class="">
     <div id="challenges">
       <div class="secondary-bkg">
-        <div class="container mx-6 stats-title columns">
+        <div class="container pt-6 mx-6 stats-title columns">
           <div class="column is-two-fifths">
             <h3>Retos</h3>
             <h3>de ciudad</h3>
+            <div class="pt-4">
+              <Button :transparent="true" :urlLink="'https://participa.demolab.com.co/'"/>
+            </div>
           </div>
           <div class="column ml-6">
             <p class="has-text-right parraf">
@@ -97,8 +100,13 @@
 </template>
 
 <script>
+import Button from '@/components/Button.vue'
+
 export default {
-  name: 'Stats'
+  name: 'Stats',
+  components: {
+    Button
+  }
 }
 </script>
 

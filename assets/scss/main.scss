@@ -10,7 +10,7 @@ body{
   border: 0;
   padding: 10px;
   color: white;
-  background-color: #ddd;
+  // background-color: #ddd;
   font-family: Staatliches;
   font-size: 25px;
   font-weight: bold;
@@ -28,6 +28,11 @@ body{
   }
   &.secondary{
     background-color: $secondary;
+  }
+  &.transparent{
+    background-color: transparent !important;
+    border:2px solid $primary;
+    color: #5fd1bc;
   }
   & span{
     position: relative;

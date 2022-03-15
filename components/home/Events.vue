@@ -75,6 +75,7 @@ export default {
 .events{
   display: flex;
   flex-direction: row;
+  margin: 80px;
 }
 .event-list{
   display: flex;

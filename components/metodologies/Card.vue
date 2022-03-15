@@ -36,6 +36,10 @@ export default {
     foto: {
       type: String,
       default: '300.png'
+    },
+    color: {
+      type: String,
+      default: '#000'
     }
   }
 }

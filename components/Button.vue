@@ -1,5 +1,5 @@
 <template>
-  <a class="boton" :href="urlLink" :class="{ full: fullwidth, secondary: secondary, primary: primary}" :style="`background-color:${ccolor}`">
+  <a class="boton" :href="urlLink" :class="{ full: fullwidth, secondary: secondary, primary: primary, transparent: transparent}" :style="`background-color:${ccolor}`">
     {{ text }}
     <span class="material-icons">
       {{ icon }}
@@ -24,6 +24,10 @@ export default {
       default: false
     },
     primary: {
+      type: Boolean,
+      default: false
+    },
+    transparent: {
       type: Boolean,
       default: false
     },
