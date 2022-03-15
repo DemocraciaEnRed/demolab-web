@@ -74,7 +74,7 @@
           <Card foto="AcercamientoEspaciosAcademicos.png" :title="'ACERCAMIENTO Y VINCULACIÓN A ESPACIOS ACADÉMICOS Y DE INVESTIGACIÓN'" :description="'Acercamiento, relacionamiento y vinculación a instituciones o centros académicos y de investigación para co-crear conocimiento por medio de procesos de experimentación, proyección, innovación, prospección e investigación que permita la generación de valor público a la corporación.'" />
         </div>
       </div>
-      <div class="columns">
+      <div class="columns ancho">
         <div class="column mx-4 p-0 metodology-card mb-6">
           <Card foto="ArticulacionSistemasDeGestion.png" :title="'ARTICULACIÓN CON LOS SISTEMAS DE GESTIÓN DE CONOCIMIENTO E INNOVACIÓN'" :description="'Vinculación con los diferentes actores, centros de pensamientos, observatorios que hacen parte del ecosistema de innovación de Bogotá y Colombia para crear sinergias que fortalezcan la innovación y gestión del conocimiento de la corporación y la generación de valor público.'" />
         </div>
