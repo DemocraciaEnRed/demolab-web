@@ -2,10 +2,12 @@
   <div>
     <b-carousel progress progress-type="is-primary">
       <b-carousel-item v-for="(item, i) in items" :key="i" class="p-6">
-        <section  class="is-flex is-justify-content-center">
+        <section class="is-flex is-justify-content-center">
           <img :src="require(`@/assets/slide/${item.foto}`)" alt="">
         </section>
-        <div class="carousel-indicator is-inside is-bottom"><a class="indicator-item"><span class="indicator-style is-dots"></span></a><a class="indicator-item is-active"><span class="indicator-style is-dots"></span></a><a class="indicator-item"><span class="indicator-style is-dots"></span></a></div>
+        <div class="carousel-indicator is-inside is-bottom">
+          <a class="indicator-item"><span class="indicator-style is-dots" /></a><a class="indicator-item is-active"><span class="indicator-style is-dots" /></a><a class="indicator-item"><span class="indicator-style is-dots" /></a>
+        </div>
       </b-carousel-item>
     </b-carousel>
   </div>
