@@ -2,7 +2,7 @@
 
 ## Requirements
 
-    * NodeJS (Tested with Node v14)
+* NodeJS (Tested with Node v14)
 
 ## Preparing development environment
 
