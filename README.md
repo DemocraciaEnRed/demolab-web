@@ -1,9 +1,8 @@
 # Demolab (Static website)
----
 
 ## Requirements
 
-    * NodeJS ()
+    * NodeJS (Tested with Node v14)
 
 ## Preparing development environment
 
