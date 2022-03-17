@@ -41,8 +41,6 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://strapi.io/documentation/v3.x/getting-started/nuxt-js.html
-    '@nuxtjs/strapi',
     // https://github.com/nuxt-community/modules/tree/master/packages/markdownit
     '@nuxtjs/markdownit'
   ],
@@ -51,10 +49,6 @@ export default {
   },
   privateRuntimeConfig: {
     // strapiUrl: process.env.STRAPI_URL
-  },
-  strapi: {
-    entities: [],
-    url: process.env.STRAPI_URL || 'http://localhost:1337'
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
