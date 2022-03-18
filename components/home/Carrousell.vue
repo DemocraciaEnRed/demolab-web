@@ -1,16 +1,18 @@
 <template>
-  <b-carousel :indicator-inside="false">
-    <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-      <section class="relative">
-        <div class="hero-body has-text-centered">
-           <img :src="require(`@/assets/${carousel.foto}`)" alt="">
-        </div>
-      </section>
-    </b-carousel-item>
-    <template class="absolute" slot="indicators"  slot-scope="props">
-      <span class="custom-item" v-html="carousels[props.i].indicator"/>
-    </template>
-  </b-carousel>
+  <section>
+      <b-carousel :indicator-inside="true" :autoplay="true" class="m-0">
+        <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+          <section class="m-0">
+            <div class="hero-body has-text-centered">
+              <img :src="require(`@/assets/${carousel.foto}`)" alt="">
+            </div>
+          </section>
+        </b-carousel-item>
+        <template class="" slot="indicators"  slot-scope="props">
+          <span class="custom-item" v-html="carousels[props.i].indicator"/>
+        </template>
+    </b-carousel>
+  </section>
 </template>
 
 <script>
@@ -34,6 +36,7 @@ export default {
   }
   .absolute{
     position: absolute;
-    top: 0px;
+    bottom: 0px;
+    right: 0px;
   }
 </style>
