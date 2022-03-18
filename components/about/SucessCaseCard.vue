@@ -9,8 +9,10 @@
     <p v-if="readMore" class="case-description">
       {{ moreDescription }}
     </p>
-    <button @click="showMore" v-if="!readMore" class="boton-config"><span class="mateirla-icons">Leer más</span></button>
-    <button @click="showLess" v-if="readMore" class="boton-config"><span class="mateirla-icons">Leer Menos</span></button>
+    <div v-if="btnMore">
+      <button @click="showMore" v-if="!readMore" class="boton"><span class="mateirla-icons">Leer más</span></button>
+      <button @click="showLess" v-if="readMore" class="boton"><span class="mateirla-icons">Leer Menos</span></button>
+    </div>
   </div>
 </template>
 
@@ -34,6 +36,10 @@ export default {
     moreDescription: {
       type: String,
       default: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.'
+    },
+    btnMore: {
+      type: Boolean,
+      default: false
     }
   },
   data: () => ({
@@ -89,7 +95,7 @@ export default {
   .boton-config{
     margin-left:300px;
     position: absolute;
-    right: 0px;
+    right: 10px;
     bottom: 0px;
   }
 </style>
