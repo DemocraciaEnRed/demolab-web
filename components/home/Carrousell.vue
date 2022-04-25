@@ -4,7 +4,9 @@
         <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
           <section class="m-0">
             <div class="hero-body has-text-centered">
-              <img :src="require(`@/assets/${carousel.foto}`)" alt="">
+              <a :href="`${carousel.link}`">
+                <img :src="require(`@/assets/${carousel.foto}`)" alt="">
+             </a>
             </div>
           </section>
         </b-carousel-item>
@@ -21,10 +23,9 @@ export default {
   data () {
     return {
       carousels: [
-        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png' },
-        { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png' },
-        { text: 'Otro evento proximo', color: 'success', indicator: 'Participación </br> <span>Ciudadana</span>', foto: 'participaciondemo.png' },
-        { text: 'Otro evento proximo', color: 'success', indicator: 'Asamblea </br> <span>Ciudadana</span>', foto: 'asamblea.png' }
+        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png', link: '/que-es-demolab' },
+        { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png', link: 'metodologias' },
+        { text: 'Otro evento proximo', color: 'success', indicator: 'Participación </br> <span>Ciudadana</span>', foto: 'participaciondemo.png', link: 'https://participa.demolab.com.co/' }
       ]
     }
   }

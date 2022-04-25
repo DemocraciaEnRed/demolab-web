@@ -50,5 +50,6 @@ export default {
 <style>
 .boton{
   background-color: #5C49BA;
+  font-weight: normal !important;
 }
 </style>

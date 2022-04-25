@@ -5,7 +5,7 @@
         <div class="logos-footer">
           <img src="/images/footer-logos.png" alt="logos de demo lab y de el consejo de bogota">
         </div>
-        <ul class="sitemap">
+        <!-- <ul class="sitemap">
           <li>¿Como funciona?</li>
           <li>Acerca de este sitio</li>
           <li>Contacto</li>
@@ -13,7 +13,7 @@
         <ul class="terms">
           <li>Terminos y condiciones</li>
           <li>Politica de privacidad</li>
-        </ul>
+        </ul> -->
       </div>
     </footer>
     <div class="sponsors">
@@ -31,7 +31,7 @@
           <img src="/images/sponsor-FESCOL.png" alt="Fescol">
         </li>
         <li>
-          <img src="/images/sponsor-exituto.png" alt="Extituto, politica abierta">
+          <img src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
         </li>
         <li>
           <img src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
@@ -55,6 +55,13 @@
             Todos los derechos reservados
           </p>
           <div class="dummy" />
+          <div>
+            <span class="icon">
+              <font-awesome-icon icon="fa-brands fa-twitter" />
+              <i class="fas fa-brands fa-twitter has-text-white"></i>
+              <i class="fas fa fa-home has-text-white"></i>
+            </span>
+          </div>
         </div>
       </div>
     </div>

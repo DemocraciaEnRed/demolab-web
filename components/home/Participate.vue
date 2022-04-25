@@ -43,7 +43,7 @@
             </tr>
           </table>
         </div> -->
-        <Button :text="'Participa e incide'" :secondary="true" />
+        <Button :href="'https://participa.demolab.com.co/'" :text="'Participa e incide'" :secondary="true" />
       </div>
       </div>
     </div>

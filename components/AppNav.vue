@@ -17,10 +17,10 @@
           Inicio
         </nuxt-link>
         <nuxt-link to="/que-es-demolab" class="navbar-item">
-          ¿Que es demolab?
+          ¿Qué es demolab?
         </nuxt-link>
         <nuxt-link to="/servicios" class="navbar-item">
-          Servicios y experiencias
+          Servicios
         </nuxt-link>
         <!-- <nuxt-link to="/eventos" class="navbar-item">
           Eventos

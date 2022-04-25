@@ -51,7 +51,7 @@
           />
         </div>
         <div class="weird-card  weird-content-config">
-          <h2>¿Qué es DemoLab? </h2>
+          <h2 class="mb-3">¿Qué es DemoLab? </h2>
           <div class="weird-content">
             <span>
               CONOCE MÁS SOBRE EL LABORATORIO<br> DE CONCEJO ABIERTO DE BOGOTÁ
@@ -76,6 +76,9 @@ export default {
 </script>
 
 <style>
+.title{
+  font-weight: normal !important;
+}
   /* .center{
     margin-left: 50px;
   } */
@@ -115,7 +118,7 @@ export default {
   .weird-card{
     background-color: white;
     display: inline-block;
-    border-left: 10px solid blue;
+    border-left: 10px solid #5c49ba;
     height: 150px;
     width: 455px;
     padding: 10px;
