@@ -5,7 +5,7 @@
       <img :src="require(`@/assets/eventos/${this.foto}`)" alt="">
     </figure>
   </div>
-  <div class="card-content card-content-config has-text-centerer">
+  <div class="card-content card-content-config has-text-centered">
      <div class="media-content media-content-config">
         <div class="title is-4">{{fecha}}</div>
         <div class="subtitle is-4" :style="`color:${this.color} !important`"><p class="has-text-center">{{ title }}</p></div>
@@ -76,6 +76,8 @@ export default {
   .card-config{
     max-width: 267px;
     min-height: 450px;
+    -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
   }
   .card-content-config{
     margin-bottom: 10px !important;

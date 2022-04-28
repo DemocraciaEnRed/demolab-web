@@ -1,6 +1,6 @@
 <template>
   <div class="event-container">
-    <div class="container">
+    <div class="">
       <h1 class="has-text-centered section-title">
         Eventos
       </h1>
@@ -75,14 +75,15 @@ export default {
 .events{
   display: flex;
   flex-direction: row;
-  margin: 80px;
+  /* margin: 80px; */
+  justify-content: center;
 }
 .event-list{
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: space-between;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 @media only screen and (max-width: 768px) {
   .events{

@@ -32,12 +32,18 @@
         </div>
         <div class="section">
             <h1 class="has-text-centered">cifras de experiencias exitosas</h1>
-            <div class="container is-flex is-flex-wrap-wrap is-justify-content-center">
+            <div class="columns is-multiline">
+                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/LaRutaPOT.png" alt="">
+                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Toolkit.png" alt="">
+                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Habilitacion.png" alt="">
+                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Conocimiento.png" alt="">
+            </div>
+            <!-- <div class="container is-flex is-flex-wrap-wrap is-justify-content-center">
                 <img class="p-6" src="~assets/servicios/LaRutaPOT.png" alt="">
                 <img class="p-6" src="~assets/servicios/Toolkit.png" alt="">
                 <img class="p-6" src="~assets/servicios/Habilitacion.png" alt="">
                 <img class="p-6" src="~assets/servicios/Conocimiento.png" alt="">
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
@@ -64,5 +70,16 @@ export default {
     }
     .card-config{
         max-width: 220px;
+    }
+    @media only screen and (min-width: 1025px) and (max-width: 1439px){
+    .tile.is-ancestor{
+     margin-left: 4rem;
+    }
+    }
+    @media screen and (min-width: 992px){
+      .container {
+        max-width: 1344px;
+
+    }
     }
 </style>

@@ -10,19 +10,19 @@
           <Button :primary="true" :urlLink="'/servicios'" :ccolor="'#5fd1bc'"/>
         </div>
         <div class="tile is-ancestor is-flex is-justify-content-center">
-          <div class="card mx-6">
+          <div class="card card-height mx-6">
             <div class="card-image">
               <img src="~/assets/participacion_mano.png" alt="imagen participacion e incidencia">
             </div>
             <div class="title is-4 has-text-centered mt-3">Participación e Incidencia</div>
           </div>
-          <div class="card mx-6">
+          <div class="card card-height mx-6">
             <div class="card-image">
               <img src="~/assets/participacion_rayo.png" alt="aceleracio na la innovacion">
             </div>
             <div class="title is-4 has-text-centered mt-3">Aceleración a la Innovación</div>
           </div>
-          <div class="card mx-6">
+          <div class="card card-height mx-6">
             <div class="card-image">
               <img src="~/assets/gestion_foco.png" alt="gestion del conocimiento">
             </div>
@@ -41,11 +41,11 @@
       </div>
     </div>
     <article class="celest">
-      <div class="container">
+      <div class="container mb-6 pb-6">
         <div class="square column" >
                     <iframe
-            src="https://player.vimeo.com/video/446827718"
-            width="1152"
+            src="https://www.youtube.com/embed/Q5FYG8Iy_KM"
+            width="550"
             height="348"
             frameborder="0"
           />
@@ -76,6 +76,9 @@ export default {
 </script>
 
 <style>
+.card-height{
+  height: 80%;
+}
 .title{
   font-weight: normal !important;
 }
@@ -104,7 +107,7 @@ export default {
     width: 50%;
     position: relative;
     top: -30px;
-    left: -150px;
+    left: 150px;
   }
   .celest{
     background-color: #d9d7ff;
@@ -131,7 +134,7 @@ export default {
   }
   .weird-content-config{
     position: relative;
-    top: 50px;
+    top: 70px;
     left: -286px;
   }
   .weird-card h2{
@@ -142,6 +145,7 @@ export default {
   .weird-content{
     display: flex;
   }
+
   @media only screen and (max-width: 768px) {
     .celest{
       margin-top: 0;

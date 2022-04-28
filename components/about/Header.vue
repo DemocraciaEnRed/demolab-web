@@ -2,7 +2,7 @@
   <div class="container about-us">
     <div class="has-text-centered about-title">
       <h3>Sobre nosotros</h3>
-      <h1>¿Que es demolab?</h1>
+      <h1>¿Qué es demolab?</h1>
       <p>DEMOLAB es el Laboratorio de Concejo Abierto de Bogotá <br>
       que trabaja para consolidar una corporación más abierta e innovadora en la ciudad. </p>
       <img height="250" width="450" src="~assets/reu.png" alt="?">

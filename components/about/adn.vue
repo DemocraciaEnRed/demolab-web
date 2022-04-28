@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1 class="has-text-centered">Nuestro ADN</h1>
     <b-carousel progress progress-type="is-primary" :icon-size="iconSize" :indicator="indicator" :auto-play="false">
       <b-carousel-item v-for="(item, i) in items" :key="i" class="p-6">
         <section class="is-flex is-justify-content-center">

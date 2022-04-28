@@ -15,15 +15,23 @@
         </p>
           <br>
       </div>
+      <Button
+        :urlLink="'https://docs.google.com/document/d/1YrRKpHyy8gpEf7pbBOYkW-FIxL5jei3Xzht97y1EevI/edit?usp=sharing '"
+        :text="'INFORME 2021'"
+        />
     </div>
 </div>
 
 </template>
 
 <script>
+import Button from '~/components/Button.vue'
 
 export default {
   name: 'Card',
+  components: {
+    Button
+  },
   props: {
     description: {
       type: String,
@@ -47,6 +55,8 @@ export default {
 <style scoped>
   .card-config{
     max-width: 340px;
+    -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
   }
   .mc-config{
     font-family: 'Staatliches';

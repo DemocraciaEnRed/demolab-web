@@ -54,12 +54,11 @@
           <p class="rights">
             Todos los derechos reservados
           </p>
-          <div class="dummy" />
           <div>
-            <span class="icon">
-              <font-awesome-icon icon="fa-brands fa-twitter" />
-              <i class="fas fa-brands fa-twitter has-text-white"></i>
-              <i class="fas fa fa-home has-text-white"></i>
+            <span class="material-icons">
+              twitter
+              <!-- <i class="fas fa-brands fa-twitter has-text-white">twitter</i>
+              <i class="fas fa fa-home has-text-white"></i> -->
             </span>
           </div>
         </div>
