@@ -1,6 +1,6 @@
 <template>
   <section>
-      <b-carousel :indicator-inside="true" :autoplay="true" class="m-0">
+      <b-carousel :indicator-inside="true" :autoplay="true" class="m-0 hero is-medium-mobile">
         <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
           <section class="m-0">
             <div class="hero-body has-text-centered">

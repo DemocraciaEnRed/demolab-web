@@ -37,7 +37,6 @@
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
             height="60"
-            width="100%"
             class="logo"
             src="~assets/consejo-bogota.png"
             alt="DemoLab logo"
@@ -75,10 +74,13 @@ export default {
   a.nuxt-link-exact-active {
     color: #00c58e;
   }
-
+  .navbar-burger{
+    margin-top: 10px;
+  }
   @media screen and (max-width: 480) {
     .logo{
       height: 50px;
+      width: 50px !important;
     }
   }
 </style>

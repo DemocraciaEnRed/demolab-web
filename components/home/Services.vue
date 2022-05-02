@@ -10,33 +10,26 @@
           <Button :primary="true" :urlLink="'/servicios'" :ccolor="'#5fd1bc'"/>
         </div>
         <div class="tile is-ancestor is-flex is-justify-content-center">
-          <div class="card card-height mx-6">
-            <div class="card-image">
+          <div class="tile is-parent">
+                      <div class="card card-height is-child mx-6">
+            <div class="image">
               <img src="~/assets/participacion_mano.png" alt="imagen participacion e incidencia">
             </div>
             <div class="title is-4 has-text-centered mt-3">Participación e Incidencia</div>
           </div>
-          <div class="card card-height mx-6">
-            <div class="card-image">
+          <div class="card card-height is-child mx-6">
+            <div class="image">
               <img src="~/assets/participacion_rayo.png" alt="aceleracio na la innovacion">
             </div>
             <div class="title is-4 has-text-centered mt-3">Aceleración a la Innovación</div>
           </div>
-          <div class="card card-height mx-6">
-            <div class="card-image">
+          <div class="card card-height is-child mx-6">
+            <div class="image">
               <img src="~/assets/gestion_foco.png" alt="gestion del conocimiento">
             </div>
             <div class="title is-4 has-text-centered mt-3">Gestión del Conocimiento</div>
           </div>
-          <!-- <div class="tile is-3">
-            <Card :text="'Participación e Incidencia'" imag="participacion_mano.png" :imgAlt="'imagen participacion e incidencia'" />
           </div>
-          <div class="tile is-3">
-            <Card :text="'Aceleración a la Innovación'" :imag="`${fotos.foco}`" :imgAlt="'aceleracio na la innovacion'"/>
-          </div>
-          <div class="tile is-3">
-            <Card :text="'Gestión del Conocimiento'" />
-          </div> -->
         </div>
       </div>
     </div>
@@ -72,14 +65,14 @@
             frameborder="0"
           />
         </div>
-        <div class="weird-card ml-6 mb-6">
+        <div class="weird-card mb-6">
           <h2 class="mb-3">¿Qué es DemoLab? </h2>
           <div class="weird-content weird-content-config-mobile">
             <span>
               CONOCE MÁS SOBRE EL LABORATORIO<br> DE CONCEJO ABIERTO DE BOGOTÁ
             </span>
             <div class="boton-config-mobile">
-              <Button  :secondary="true" />
+              <Button  :secondary="true" :fullwidth="true"/>
             </div>
           </div>
       </div>
@@ -97,9 +90,9 @@ export default {
 </script>
 
 <style>
-.card-height{
-  height: 80%;
-}
+    .card-height{
+      height: 80% ;
+    }
 .title{
   font-weight: normal !important;
 }
@@ -170,8 +163,12 @@ export default {
   .weird-content{
     display: flex;
   }
-
-  @media only screen and (min-with: 769px) and (min-with: 1215px){
+  @media only screem and (min-width: 950px){
+    .card-height{
+      height: 80% ;
+    }
+  }
+  @media only screen and (min-with: 769px) and (max-with: 1215px){
     .celest{
       margin-top: 50px;
     }
@@ -186,6 +183,9 @@ export default {
     }
   }
   @media only screen and (max-width: 768px) {
+    .card-height{
+      height: auto ;
+    }
     .celest{
       margin-top: 0;
       display: none;
@@ -196,6 +196,7 @@ export default {
     .weird-card{
       display: block;
       height: auto;
+      width: auto;
       top: 0;
       left: 0;
     }
@@ -227,9 +228,7 @@ export default {
       position: relative;
     }
     .boton-config-mobile{
-      position: absolute !important;
-      right: -116px !important;
-      bottom: 34px !important;
+      position: relative;
     }
     .services .description{
       text-align: center;
