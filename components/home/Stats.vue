@@ -26,8 +26,8 @@
         </div>
       </div>
       <div class="line">
-        <div class="container section columns ml-6">
-          <div class="column box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
+        <div class="container section is-flex ml-6">
+          <div class="box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
             <div class="is-align-content-center">
               <img src="~/assets/pot.png" alt="" class="image is-150x150 ml-6 pl-5">
             </div>
@@ -35,7 +35,7 @@
               <h3>la ruta pot</h3>
             </div>
           </div>
-          <div class="column box">
+          <div class="box">
             <div>
               <img src="~/assets/dialogok.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
             </div>
@@ -43,7 +43,7 @@
               <h3>la ruta pot</h3>
             </div>
           </div>
-          <div class="column box">
+          <div class="box">
             <div>
               <img src="~/assets/manifesta.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
             </div>
@@ -51,7 +51,7 @@
               <h3>la ruta pot</h3>
             </div>
           </div>
-          <div class="column box">
+          <div class="box">
             <div>
               <img src="~/assets/agenda-ciudadana.png" alt="" class="image is-150x150 ml-6 pl-5">
             </div>

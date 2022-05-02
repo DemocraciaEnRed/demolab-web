@@ -42,7 +42,7 @@
     </div>
     <article class="celest">
       <div class="container mb-6 pb-6">
-        <div class="square column" >
+        <div class="square" >
                     <iframe
             src="https://www.youtube.com/embed/Q5FYG8Iy_KM"
             width="550"
@@ -50,7 +50,7 @@
             frameborder="0"
           />
         </div>
-        <div class="weird-card  weird-content-config">
+      <div class="weird-card  weird-content-config">
           <h2 class="mb-3">¿Qué es DemoLab? </h2>
           <div class="weird-content">
             <span>
@@ -60,9 +60,30 @@
               <Button  :secondary="true" />
             </div>
           </div>
-        </div>
+      </div>
       </div>
     </article>
+    <section class="to-mobile">
+       <div class="square-mobile column" >
+          <iframe
+            src="https://www.youtube.com/embed/Q5FYG8Iy_KM"
+            width="250"
+            height="348"
+            frameborder="0"
+          />
+        </div>
+        <div class="weird-card ml-6 mb-6">
+          <h2 class="mb-3">¿Qué es DemoLab? </h2>
+          <div class="weird-content weird-content-config-mobile">
+            <span>
+              CONOCE MÁS SOBRE EL LABORATORIO<br> DE CONCEJO ABIERTO DE BOGOTÁ
+            </span>
+            <div class="boton-config-mobile">
+              <Button  :secondary="true" />
+            </div>
+          </div>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -106,8 +127,12 @@ export default {
     height: 300px;
     width: 50%;
     position: relative;
-    top: -30px;
-    left: 150px;
+    top: -18px;
+    left: 170px;
+  }
+  .to-mobile{
+    visibility: hidden ;
+    display: none;
   }
   .celest{
     background-color: #d9d7ff;
@@ -134,8 +159,8 @@ export default {
   }
   .weird-content-config{
     position: relative;
-    top: 70px;
-    left: -286px;
+    top:70px;
+    left: -120px;
   }
   .weird-card h2{
     font-size: 25px;
@@ -146,9 +171,24 @@ export default {
     display: flex;
   }
 
+  @media only screen and (min-with: 769px) and (min-with: 1215px){
+    .celest{
+      margin-top: 50px;
+    }
+    .square{
+      position: relative;
+      top: -30px;
+      left: 0px;
+    }
+    .weird-content-config{
+      top: 70px;
+      left: -286px;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .celest{
       margin-top: 0;
+      display: none;
     }
     .services{
       flex-direction: column;
@@ -159,6 +199,9 @@ export default {
       top: 0;
       left: 0;
     }
+    .weird-content-config{
+      position: absolute;
+    }
     .weird-content{
       flex-direction: column;
     }
@@ -167,6 +210,26 @@ export default {
     }
     .square{
       display: none;
+    }
+    .to-mobile{
+      visibility: visible;
+      display: block;
+
+    }
+    .square-mobile{
+      visibility: visible;
+      display: block;
+    }
+    iframe{
+      width: 100%;
+    }
+    .weird-content-config-mobile{
+      position: relative;
+    }
+    .boton-config-mobile{
+      position: absolute !important;
+      right: -116px !important;
+      bottom: 34px !important;
     }
     .services .description{
       text-align: center;

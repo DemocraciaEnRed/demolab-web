@@ -54,12 +54,16 @@
           <p class="rights">
             Todos los derechos reservados
           </p>
-          <div>
-            <span class="material-icons">
-              twitter
-              <!-- <i class="fas fa-brands fa-twitter has-text-white">twitter</i>
-              <i class="fas fa fa-home has-text-white"></i> -->
-            </span>
+          <div class="has-text-white">
+            <a href="https://twitter.com/DemoLabCA" target="_blank">
+              <span class="fa fa-2x fa-twitter mx-6" style="color:#fff"></span>
+            </a>
+            <a href="https://www.facebook.com/demolabca/" target="_blank">
+              <span class="fa fa-2x fa-facebook mx-6" style="color:#fff"></span>
+            </a>
+            <a href="https://www.instagram.com/demolabca/?hl=es" target="_blank">
+              <span class="fa fa-2x fa-instagram mx-6" style="color:#fff"></span>
+            </a>
           </div>
         </div>
       </div>
