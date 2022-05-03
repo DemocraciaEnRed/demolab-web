@@ -2,34 +2,32 @@
   <div class="">
     <div id="challenges">
       <div class="secondary-bkg">
-        <div class="container pt-6 mx-6 stats-title columns">
-          <div class="column is-two-fifths">
-            <h3 class="has-text-white">Retos</h3>
-            <h3>de ciudad</h3>
-            <!-- <div class="pt-4">
-              <Button :transparent="true" :urlLink="'https://participa.demolab.com.co/'"/>
-            </div> -->
+        <div class=" pt-6 mx-6 stats-title">
+          <div class="  columns is-desktop">
+            <div class="column">
+              <h3 class="has-text-white">Retos</h3>
+              <h3>de ciudad</h3>
+              <!-- <div class="pt-4">
+                <Button :transparent="true" :urlLink="'https://participa.demolab.com.co/'"/>
+              </div> -->
+            </div>
+            <div class="column">
+              <p class="parraf">
+                Los retos de ciudad son los procesos que el Concejo de Bogotá
+                abre a la participación de la ciudadanía de Bogotá. Podrás
+                proponer,
+                debatir con otras personas, votar y ser parte de las decisiones de
+                la ciudad.
+              </p>
+            </div>
           </div>
-          <div class="column ml-6">
-            <p class="has-text-right parraf">
-              Los retos de ciudad son los procesos que el Concejo de Bogotá
-              abre a la participación de la ciudadanía de Bogotá. Podrás
-              proponer,
-              debatir con otras personas, votar y ser parte de las decisiones de
-              la ciudad.
-            </p>
-          </div>
-
-          <!-- <span class="material-icons">
-            double_arrow
-          </span> -->
         </div>
       </div>
       <div class="line">
-        <div class="container section is-flex ml-6">
+        <div class="container section is-flex-tablet ml-6">
           <div class="box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
             <div class="is-align-content-center">
-              <img src="~/assets/pot.png" alt="" class="image is-150x150 ml-6 pl-5">
+              <img src="~/assets/pot.png" alt="" class="image is-150x150">
             </div>
             <div class="text-box is-align-content-center">
               <h3>la ruta pot</h3>
@@ -151,7 +149,7 @@ export default {
 .stats-title {
   color: white;
   height: 141px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding: 10px;
 }
@@ -207,17 +205,28 @@ hr{
 
   color: #584DB3;
 }
+img .image{
+  margin: auto;
+}
 @media only screen and (max-width: 768px) {
+  .line{
+    height: auto;
+  }
   .stats {
     top: 0;
   }
   .stats-title {
     display: flex;
     justify-content: center;
+    height: auto;
   }
   .chall h2 {
     font-size: 44px;
     line-height: 36px;
+  }
+  .parraf{
+    text-align: left;
+    padding: 0px;
   }
 }
 </style>

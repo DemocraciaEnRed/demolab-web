@@ -27,17 +27,18 @@
 <script>
 export default {
   name: 'Carrousell',
-  beforeMount () {
-    if (window.screen.width > 720) {
+  mounted () {
+    const resolution = window.screen.width
+    if (resolution > 720) {
       this.divice = true
     } else {
       this.divice = false
     }
-    console.log('screen: ', this.divice)
+    console.log('screen: ', resolution, 'divice: ', this.divice)
   },
   data () {
     return {
-      divice: true,
+      divice: null,
       carousels: [
         { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png', fotoMobile: 'ejemplo.png', link: '/que-es-demolab' },
         { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png', fotoMobile: 'ejemplo.png', link: 'metodologias' },

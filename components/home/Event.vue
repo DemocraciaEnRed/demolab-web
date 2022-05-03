@@ -110,4 +110,9 @@ export default {
     font-size: 14px;
     line-height: 20px;
   }
+  @media only screen and (max-width: 768px) {
+    .card-config{
+      margin-bottom: 10px;
+    }
+  }
 </style>

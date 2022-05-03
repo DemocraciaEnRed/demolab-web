@@ -6,11 +6,11 @@
           #LARUTAPOT
           <img src="~assets/RutaPOT 1.png" alt="">
         </div>
-        <div class="method">
+        <div class="method is-size-6-mobile">
           Cultura de la Innovación
           <img src="~assets/ToolkitGenero 1.png" alt="">
         </div>
-        <div class="method">
+        <div class="method is-size-5-mobile">
           tOOLKIT DE gENERO
           <img src="~assets/CulturaInnovacion 1.png" alt="">
         </div>
@@ -100,6 +100,7 @@ export default {
     }
     .methods{
       flex-direction: column;
+      width: 100%;
     }
     .method-description{
       text-align: center;
@@ -112,6 +113,9 @@ export default {
       width: 100%;
       justify-content: flex-start;
       padding: 10px 20px;
+    }
+    p{
+      margin-bottom: 15px;
     }
   }
 </style>
