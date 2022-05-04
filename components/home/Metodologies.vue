@@ -2,7 +2,7 @@
   <div class="methods-container">
     <div class="container methods">
       <div class="method-list">
-        <div class="method">
+        <div id="rutapot" class="method">
           #LARUTAPOT
           <img src="~assets/RutaPOT 1.png" alt="">
         </div>
@@ -72,7 +72,7 @@ export default {
   .method{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px 10px;
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
@@ -102,6 +102,9 @@ export default {
       flex-direction: column;
       width: 100%;
     }
+    .method{
+      margin: 0px 2px !important;
+    }
     .method-description{
       text-align: center;
       align-items: center;
@@ -117,5 +120,9 @@ export default {
     p{
       margin-bottom: 15px;
     }
+  }
+
+  @media only screen and (max-with: 420px) {
+
   }
 </style>

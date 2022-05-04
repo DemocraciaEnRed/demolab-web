@@ -185,6 +185,7 @@ export default {
   @media only screen and (max-width: 768px) {
     .card-height{
       height: auto ;
+      margin-bottom: 48px !important;
     }
     .celest{
       margin-top: 0;

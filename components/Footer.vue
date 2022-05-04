@@ -1,8 +1,8 @@
 <template>
   <div>
     <footer>
-      <div class="container">
-        <div class="logos-footer">
+      <div class="container is-justify-content-center">
+        <div class="">
           <img src="/images/footer-logos.png" alt="logos de demo lab y de el consejo de bogota">
         </div>
         <!-- <ul class="sitemap">
@@ -20,27 +20,27 @@
       <h5 class="has-text-centered">
         Con el apoyo de
       </h5>
-      <ul class="container sponsor-list">
-        <li>
-          <img src="/images/sponsor-corona.png" alt="Fundación corona">
+      <ul class="container sponsor-list columns is-mobile">
+        <li class="column is-one-third-mobile">
+          <img class="image is-3by1" src="/images/sponsor-corona.png" alt="Fundación corona">
         </li>
-        <li>
-          <img src="/images/sponsor-avina.png" alt="Fundación avina">
+        <li class="column">
+          <img class="image is-3by1"  src="/images/sponsor-avina.png" alt="Fundación avina">
         </li>
-        <li>
-          <img src="/images/sponsor-FESCOL.png" alt="Fescol">
+        <li class="column">
+          <img class="image is-3by1" src="/images/sponsor-FESCOL.png" alt="Fescol">
         </li>
-        <li>
-          <img src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
+        <li class="column">
+          <img class="image is-3by1" src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
         </li>
-        <li>
-          <img src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
+        <li class="column">
+          <img class="image is-3by1" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
         </li>
-        <li>
-          <img src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy">
+        <li class="column">
+          <img class="image is-3by1" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy">
         </li>
-        <li>
-          <img src="/images/sponsor-diseno-publico.png" alt="diseño público">
+        <li class="column">
+          <img class="image is-3by1" src="/images/sponsor-diseno-publico.png" alt="diseño público">
         </li>
       </ul>
     </div>

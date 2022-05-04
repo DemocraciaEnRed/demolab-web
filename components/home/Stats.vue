@@ -211,6 +211,7 @@ img .image{
 @media only screen and (max-width: 768px) {
   .line{
     height: auto;
+    margin-bottom: 10px;
   }
   .stats {
     top: 0;
