@@ -34,10 +34,10 @@
         <div class="section">
             <h1 class="has-text-centered">cifras de experiencias exitosas</h1>
             <div class="columns is-multiline">
-                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/LaRutaPOT.png" alt="">
-                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Toolkit.png" alt="">
-                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Habilitacion.png" alt="">
-                <img class="p-6 column is-half-desktop is-half-tablet" src="~assets/servicios/Conocimiento.png" alt="">
+                <img class="column is-half-desktop is-half-tablet" src="~assets/servicios/LaRutaPOT.png" alt="">
+                <img class="column is-half-desktop is-half-tablet" src="~assets/servicios/Toolkit.png" alt="">
+                <img class="column is-half-desktop is-half-tablet" src="~assets/servicios/Habilitacion.png" alt="">
+                <img class="column is-half-desktop is-half-tablet" src="~assets/servicios/Conocimiento.png" alt="">
             </div>
             <!-- <div class="container is-flex is-flex-wrap-wrap is-justify-content-center">
                 <img class="p-6" src="~assets/servicios/LaRutaPOT.png" alt="">

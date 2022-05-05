@@ -34,7 +34,6 @@ export default {
     } else {
       this.divice = false
     }
-    console.log('screen: ', resolution, 'divice: ', this.divice)
   },
   data () {
     return {

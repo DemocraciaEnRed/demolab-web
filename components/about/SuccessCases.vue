@@ -59,6 +59,14 @@ export default {
   components: {
     // SucessCaseCard
   },
+  mounted () {
+    const resolution = window.screen.width
+    if (resolution > 720) {
+      this.perList = 2
+    } else {
+      this.perList = 1
+    }
+  },
   data () {
     return {
       arrow: false,
