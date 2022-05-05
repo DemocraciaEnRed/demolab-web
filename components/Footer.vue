@@ -21,18 +21,20 @@
         Con el apoyo de
       </h5>
       <div id="sponsors" class="columns is-desktop">
-        <div class="column is-one-third is-flex is-justify-content-space-between">
-          <img class="image" src="/images/sponsor-corona.png" alt="Fundación corona" style="max-height:118px; margin: auto">
-          <img class="image"  src="/images/sponsor-avina.png" alt="Fundación avina" style="max-height:118px; margin: auto">
-          <img class="image" src="/images/sponsor-FESCOL.png" alt="Fescol" style="max-height:118px; margin: auto">
+        <div class="column is-one-quarter is-flex">
+          <img class="image" src="/images/sponsor-corona.png" alt="Fundación corona">
+          <img class="image"  src="/images/sponsor-avina.png" alt="Fundación avina">
         </div>
-        <div class="column is-one-third is-flex is-justify-content-space-between">
+        <div class="column is-one-quarter is-flex">
+          <img class="image" src="/images/sponsor-FESCOL.png" alt="Fescol" >
           <img class="image" src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
-          <img class="image" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
-          <img class="image" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy" style="max-height:118px; margin: auto">
         </div>
-        <div class="column is-one-third is-flex is-justify-content-center">
-          <img class="image" src="/images/sponsor-diseno-publico.png" alt="diseño público" style="max-height:28px; margin: auto">
+        <div class="column is-one-quarter is-flex">
+          <img class="image" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
+          <img class="image" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy">
+        </div>
+        <div class="column is-one-quarter is-flex-desktop is-justify-content-center">
+          <img class="image" src="/images/sponsor-diseno-publico.png" alt="diseño público">
         </div>
       </div>
       <!-- <ul class="container sponsor-list columns is-mobile">
@@ -59,7 +61,7 @@
         </li>
       </ul> -->
     </div>
-    <div class="secondary-bkg mt-6">
+    <div class="secondary-bkg">
       <div class="container">
         <div class="democracy-os">
           <div>
@@ -117,7 +119,10 @@ export default {
   .terms{
     margin-left: auto;
   }
-
+#sponsors div img{
+  max-height:118px;
+  margin: auto;
+}
   .sponsors{
     background-color: #E8E8E8;
   }
@@ -171,10 +176,10 @@ export default {
     }
   #sponsors{
     height: auto;
+    justify-content: center;
   }
   #sponsors div img {
-    margin: 0px !important;
-    padding: 50px 0px !important;
+    padding: 30px 0px !important;
   }
   }
 </style>
