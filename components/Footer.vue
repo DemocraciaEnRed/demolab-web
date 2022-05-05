@@ -20,31 +20,46 @@
       <h5 class="has-text-centered">
         Con el apoyo de
       </h5>
-      <ul class="container sponsor-list columns is-mobile">
+      <div id="sponsors" class="columns is-desktop">
+        <div class="column is-one-third is-flex is-justify-content-space-between">
+          <img class="image" src="/images/sponsor-corona.png" alt="Fundación corona" style="max-height:118px; margin: auto">
+          <img class="image"  src="/images/sponsor-avina.png" alt="Fundación avina" style="max-height:118px; margin: auto">
+          <img class="image" src="/images/sponsor-FESCOL.png" alt="Fescol" style="max-height:118px; margin: auto">
+        </div>
+        <div class="column is-one-third is-flex is-justify-content-space-between">
+          <img class="image" src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
+          <img class="image" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
+          <img class="image" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy" style="max-height:118px; margin: auto">
+        </div>
+        <div class="column is-one-third is-flex is-justify-content-center">
+          <img class="image" src="/images/sponsor-diseno-publico.png" alt="diseño público" style="max-height:28px; margin: auto">
+        </div>
+      </div>
+      <!-- <ul class="container sponsor-list columns is-mobile">
         <li class="column is-one-third-mobile">
-          <img class="image is-3by1" src="/images/sponsor-corona.png" alt="Fundación corona">
+          <img class="image" src="/images/sponsor-corona.png" alt="Fundación corona">
         </li>
         <li class="column">
-          <img class="image is-3by1"  src="/images/sponsor-avina.png" alt="Fundación avina">
+          <img class="image"  src="/images/sponsor-avina.png" alt="Fundación avina">
         </li>
         <li class="column">
-          <img class="image is-3by1" src="/images/sponsor-FESCOL.png" alt="Fescol">
+          <img class="image" src="/images/sponsor-FESCOL.png" alt="Fescol">
         </li>
         <li class="column">
-          <img class="image is-3by1" src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
+          <img class="image" src="/images/sponsor-extituto.png" alt="Extituto, politica abierta">
         </li>
         <li class="column">
-          <img class="image is-3by1" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
+          <img class="image" src="/images/sponsor-idemos.png" alt="ideemos, laboratorio de innovación democratica">
         </li>
         <li class="column">
-          <img class="image is-3by1" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy">
+          <img class="image" src="/images/sponsor-NIMD.png" alt="netherlands institute for multiparty democracy">
         </li>
         <li class="column">
-          <img class="image is-3by1" src="/images/sponsor-diseno-publico.png" alt="diseño público">
+          <img class="image" src="/images/sponsor-diseno-publico.png" alt="diseño público">
         </li>
-      </ul>
+      </ul> -->
     </div>
-    <div class="secondary-bkg">
+    <div class="secondary-bkg mt-6">
       <div class="container">
         <div class="democracy-os">
           <div>
@@ -102,6 +117,7 @@ export default {
   .terms{
     margin-left: auto;
   }
+
   .sponsors{
     background-color: #E8E8E8;
   }
@@ -153,5 +169,12 @@ export default {
     .democracy-os div{
       justify-content: center;
     }
+  #sponsors{
+    height: auto;
+  }
+  #sponsors div img {
+    margin: 0px !important;
+    padding: 50px 0px !important;
+  }
   }
 </style>
