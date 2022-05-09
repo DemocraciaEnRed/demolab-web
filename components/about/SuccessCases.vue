@@ -1,7 +1,10 @@
 <template>
   <div class="success">
     <div class="container">
-      <h1 class="my-6">Casos de exito</h1>
+      <h1 class="my-6 has-text-centered-mobile">Casos de exito</h1>
+      <p class="m-2 py-3">
+        <span class="indicator is-hidden-desktop is-size-3">desliza la tarjeta >>> </span>
+      </p>
        <b-carousel-list
             :data="items"
             :arrow="arrow"
@@ -13,8 +16,8 @@
             :has-grayscale="gray"
             :has-opacity="opacity"
             >
-                <template #item="list" id="list.title">
-                   <div class="sucess-case">
+                <template #item="list" :id="`card-template`"  style="width:0px !important;">
+                   <div :id="`${list.title}`" class="sucess-case">
                       <!-- <h3 class="case-title text-center" :style="{ color: color }"> -->
                       <h3 class="case-title text-center" >
                         {{ list.title }}
@@ -62,7 +65,7 @@ export default {
   mounted () {
     const resolution = window.screen.width
     if (resolution > 720) {
-      this.perList = 2
+      this.perList = 2.5
     } else {
       this.perList = 1
     }
@@ -75,7 +78,7 @@ export default {
       gray: false,
       opacity: false,
       values: 1,
-      perList: 2,
+      perList: 3,
       increment: 1,
       repeat: false,
       items: [
@@ -107,10 +110,8 @@ export default {
   border-left: solid 20px #5c49ba;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-$carousel-indicator-spaced: 0px;
-.carusel-list .carusel-slides .carusel-slide{
-  width: $carousel-indicator-spaced;
-  margin: $carousel-indicator-spaced !important
+ .carusel-item{
+  width:0px !important;
 }
  .sucess-case{
     height: 270px ;
@@ -152,5 +153,23 @@ $carousel-indicator-spaced: 0px;
   }
   .event-description{
     text-align: center;
+  }
+
+.indicator{
+  color:#8e86b696;
+}
+
+  @media screen and (max-width: 740px) {
+    .sucess-case{
+      min-height: 100%;
+      height: auto;
+      position: relative;
+      padding: 20px;
+      border-left: 20px solid #5C49BA;
+      width: auto;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin: 0px !important;
+  }
   }
 </style>

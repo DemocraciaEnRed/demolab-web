@@ -16,19 +16,14 @@
         </section>
          <div class="carousel-indicator is-inside is-bottom">
           <a class="indicator-item"><span class="indicator-style is-dots" /></a><a class="indicator-item is-active"><span class="indicator-style is-dots" /></a><a class="indicator-item"><span class="indicator-style is-dots" /></a>
-        </div> -->
+        </div>
       </b-carousel-item>
     </b-carousel> -->
- <b-carousel-list
+    <b-carousel-list
             :data="items"
-            :arrow="arrow"
-            :arrow-hover="arrowHover"
             :items-to-show="perList"
             :items-to-list="increment"
             :repeat="false"
-            :has-drag="drag"
-            :has-grayscale="gray"
-            :has-opacity="opacity"
             >
                 <template #item="list" id="list.title">
                   <section class="is-flex is-justify-content-center">
