@@ -39,9 +39,9 @@ export default {
     return {
       divice: null,
       carousels: [
-        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png', fotoMobile: 'ejemplo.png', link: '/que-es-demolab' },
-        { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png', fotoMobile: 'ejemplo.png', link: 'metodologias' },
-        { text: 'Otro evento proximo', color: 'success', indicator: 'Participación </br> <span>Ciudadana</span>', foto: 'participaciondemo.png', fotoMobile: 'ejemplo.png', link: 'https://participa.demolab.com.co/' }
+        { text: '¿Que es DemoLab?', color: 'primary', indicator: '¿Que es </br> <span>DemoLab?</span>', foto: 'demolab.png', fotoMobile: 'Banner_1-Mobile.png', link: '/que-es-demolab' },
+        { text: 'Evento proximo', color: 'info', indicator: 'Nuestros </br> <span>Proyectos</span>', foto: 'proyectos.png', fotoMobile: 'Banner_2-Mobile.png', link: 'metodologias' },
+        { text: 'Otro evento proximo', color: 'success', indicator: 'Participación </br> <span>Ciudadana</span>', foto: 'participaciondemo.png', fotoMobile: 'Banner_3-Mobile.png', link: 'https://participa.demolab.com.co/' }
       ]
     }
   }
