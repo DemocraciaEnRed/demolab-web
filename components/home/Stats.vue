@@ -23,8 +23,8 @@
           </div>
         </div>
       </div>
-      <div class="line">
-        <div class="container section is-flex-tablet ml-6">
+      <div class="line container section is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
+        <div class="container section is-flex-tablet">
           <div class="box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
             <div class="is-align-content-center">
               <img src="~/assets/pot.png" alt="" class="image is-150x150">
@@ -157,7 +157,7 @@ export default {
   margin-left: 30px;
 }
 #challenges {
-  background: #d9d7ff;
+  background: #5c49ba;
   align-items: center;
 }
 .first-challenge {
@@ -180,9 +180,11 @@ hr{
   position: relative;
 }
 .line{
+  display: flex;
   background-color: #584DB3;
   height: 150px;
   margin-bottom: 250px;
+  margin-left: 3rem;
 }
 .box {
   z-index: 1000;
@@ -212,6 +214,7 @@ img .image{
   .line{
     height: auto;
     margin-bottom: 10px;
+    margin-left: 0px;
   }
   .stats {
     top: 0;
@@ -229,5 +232,11 @@ img .image{
     text-align: left;
     padding: 0px;
   }
+}
+@media only screen and (min-width: 1366px) {
+  .line {
+    margin-left:8rem !important;
+  }
+
 }
 </style>

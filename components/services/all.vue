@@ -1,34 +1,34 @@
 <template>
-    <div>
+    <div class="container">
         <div class="container">
             <h1 class="has-text-centered">Servicios</h1>
         </div>
         <div class="section">
             <div class="container card-list">
         <!-- <div class="tile is-ancestor is-flex is-justify-content-center"> -->
-        <div class="container columns is-multiline is-justify-content-center">
-          <div class="column is-12-desktop card card-config p-0 mx-6">
-            <div class="card-image">
-              <img src="~/assets/participacion_mano.png" alt="imagen participacion e incidencia">
+          <div class="container columns is-multiline is-justify-content-center">
+            <div class="column is-12-desktop card card-config p-0 mx-6">
+              <div class="card-image">
+                <img src="~/assets/participacion_mano.png" alt="imagen participacion e incidencia">
+              </div>
+              <div class="title is-4 has-text-centered mt-3">Línea de participación y apertura del Concejo</div>
+              <div class="card-content content">Diseñamos y desarrollamos herramientas, proyectos, actividades, tecnología cívica y habilitación de la incidencia ciudadana en los procesos de toma de decisión del Concejo de Bogotá</div>
             </div>
-            <div class="title is-4 has-text-centered mt-3">Línea de participación y apertura del Concejo</div>
-            <div class="card-content content">Diseñamos y desarrollamos herramientas, proyectos, actividades, tecnología cívica y habilitación de la incidencia ciudadana en los procesos de toma de decisión del Concejo de Bogotá</div>
-          </div>
-          <div class="column is-12-desktop card card-config p-0 mx-6">
-            <div class="card-image">
-              <img src="~/assets/participacion_rayo.png" alt="aceleracio na la innovacion">
+            <div class="column is-12-desktop card card-config p-0 mx-6">
+              <div class="card-image">
+                <img src="~/assets/participacion_rayo.png" alt="aceleracio na la innovacion">
+              </div>
+              <div class="title is-4 has-text-centered mt-3">Línea de aceleración a la innovación en el Concejo</div>
+              <div class="card-content content">Creamos metodologías de  innovación pública, desarrollo de prototipos, diseño público, habilitación, acompañamiento y fortalecimiento de la innovación en el Concejo de Bogotá</div>
             </div>
-            <div class="title is-4 has-text-centered mt-3">Línea de aceleración a la innovación en el Concejo</div>
-            <div class="card-content content">Creamos metodologías de  innovación pública, desarrollo de prototipos, diseño público, habilitación, acompañamiento y fortalecimiento de la innovación en el Concejo de Bogotá</div>
-          </div>
-          <div class="column is-12-desktop card card-config p-0 mx-6">
-            <div class="card-image">
-              <img src="~/assets/gestion_foco.png" alt="gestion del conocimiento">
+            <div class="column is-12-desktop card card-config p-0 mx-6">
+              <div class="card-image">
+                <img src="~/assets/gestion_foco.png" alt="gestion del conocimiento">
+              </div>
+              <div class="title is-4 has-text-centered mt-3">Línea de Gestión del conocimiento</div>
+              <div class="card-content content">Construimos una red de acción e investigación con la academia, organizaciones de la sociedad civil, semilleros y el ecosistema de innovación pública, para el fortalecer la gestión del conocimiento al interior de la Corporación</div>
             </div>
-            <div class="title is-4 has-text-centered mt-3">Línea de Gestión del conocimiento</div>
-            <div class="card-content content">Construimos una red de acción e investigación con la academia, organizaciones de la sociedad civil, semilleros y el ecosistema de innovación pública, para el fortalecer la gestión del conocimiento al interior de la Corporación</div>
           </div>
-        </div>
             </div>
         </div>
         <div class="section">
@@ -82,5 +82,10 @@ export default {
         max-width: 1344px;
 
     }
+    }
+    @media screen and (max-width: 740px){
+      .card-list{
+        margin-left: 3rem;
+      }
     }
 </style>

@@ -3,7 +3,7 @@
     <div class="mb-6 pb-6 has-text-centered about-title">
       <h1>Opinión ciudadana</h1>
       <div class="container container-config has-text-centered">
-        <p class="short-dec">Cada metodología esta orientada fortalecer la confianza entre la ciudadanía y el Concejo mediante la apertura, la participación ciudadana, y la innovación.</p>
+        <p class="short-dec">Cada metodología está orientada fortalecer la confianza entre la ciudadanía y el Concejo mediante la apertura, la participación ciudadana, y la innovación.</p>
       </div>
     </div>
     <div class="container is-justify-content-center">
@@ -77,7 +77,7 @@ export default {
       ],
       aceleracion: [
         { title: 'SERVICIO DE HABILITACIÓN A LA INNOVACIÓN', description: 'Bogotá, para llevar a cabo procesos de innovación, participación y apertura guiados por el equipo de DemoLab. Este servicio apoya a los equipos de las y los concejales y funcionarios a identificar el reto a abordar, comprender su naturaleza, entender el problema y acompañar el proceso para que sean las y los funcionarios, asesores y/o concejales quienes implementen las soluciones creadas en este servicio.', foto: 'ServicioHabilitacionInnovacion.png' },
-        { title: 'TOOLKIT DE GÉNERO', description: 'Esta caja de herramientas fue diseñada por el DemoLab en colaboración con la Secretaría Distrital de la Mujer, ONU Mujeres, el Instituto Holandés para la Democracia Multipartidista (NIMD) y Extituto de Política Abierta, la Bancada Bancada para la Equidad de la mujer, el Sistema Distrital de Cuidado y Eliminación de todas las Violencias Basadas en Género, y la Bancada de la MujerEste instrumento, permite a los y las Concejalas y sus equipos incluir el enfoque de género en.los proyectos de acuerdo normativo, debates de control político, y presupuesto de la ciudad.', foto: 'ToolkitGenero.png' },
+        { title: 'TOOLKIT DE GÉNERO', description: 'Esta caja de herramientas fue diseñada por el DemoLab en colaboración con la Secretaría Distrital de la Mujer, ONU Mujeres, el Instituto Holandés para la Democracia Multipartidista (NIMD) y Extituto de Política Abierta, la Bancada Bancada para la Equidad de la mujer, el Sistema Distrital de Cuidado y Eliminación de todas las Violencias Basadas en Género, y la Bancada de la Mujer. Este instrumento, permite a los y las Concejalas y sus equipos incluir el enfoque de género en.los proyectos de acuerdo normativo, debates de control político, y presupuesto de la ciudad.', foto: 'ToolkitGenero.png' },
         { title: 'CULTURA DE LA INNOVACIÓN', description: 'El DemoLab ha diseñado una estrategia para fortalecer las capacidades de innovación en funcionarios y funcionarias en el Concejo de Bogotá. Esta estrategia tiene elementos y procesos de transferencia metodológica, sistemas de incentivos para la apropiación de la innovación, momentos de intercambio de aprendizajes con miembros del ecosistema de gobierno abierto, innovación pública, entre otros.', foto: 'CulturaInnovacion.png' }
       ],
       conocimiento: [
@@ -93,11 +93,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style  scoped>
+
   .container-config{
     width: 70%;
     margin-bottom: 20px;
   }
+/* @media screen and (min-width: 1440px) {
+  .container-config{
+      max-width: 50% !important;
+  }
+} */
   .shoit-dec{
     font-family: 'Raleway';
     font-style: normal;

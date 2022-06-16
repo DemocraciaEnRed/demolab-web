@@ -1,7 +1,7 @@
 <template>
   <div class="success">
     <div class="container">
-      <h1 class="my-6 has-text-centered-mobile">Casos de exito</h1>
+      <h1 class="my-6 has-text-centered-mobile">Casos de éxito</h1>
       <p class="m-2 py-3">
         <span class="indicator is-hidden-desktop is-size-3">desliza la tarjeta >>> </span>
       </p>
