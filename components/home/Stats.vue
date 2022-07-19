@@ -25,9 +25,9 @@
       </div>
       <div class="line container section is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
         <div class="container section is-flex-tablet">
-          <div class="box is-flex is-flex-direction-column is-justify-content-center is-flex-wrap-nowrap is-align-content-center">
-            <div class="is-align-content-center">
-              <img src="~/assets/pot.png" alt="" class="image is-150x150">
+          <div class="box ">
+            <div class="">
+              <img src="~/assets/pot.png" alt="" class="image is-150x150 ml-6  mt-3">
             </div>
             <div class="text-box is-align-content-center">
               <h3>la ruta pot</h3>
@@ -35,18 +35,18 @@
           </div>
           <div class="box">
             <div>
-              <img src="~/assets/dialogok.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
+              <img src="~/assets/dialogok.png" alt="" class="image is-150x150 ml-6  mt-3">
             </div>
-            <div class="text-box pt-6 mt-1">
-              <h3>la ruta pot</h3>
+            <div class="text-box pt-5 mt-1">
+              <h3 class="">Las cuentas claras del consejo</h3>
             </div>
           </div>
           <div class="box">
             <div>
-              <img src="~/assets/manifesta.png" alt="" class="image is-150x150 ml-6 pl-5 mt-3">
+              <img src="~/assets/manifesta.png" alt="" class="image is-150x150 ml-6  mt-3">
             </div>
             <div class="text-box pt-6 mt-3">
-              <h3>la ruta pot</h3>
+              <h3>El consejo de Bogotá escucha el paro</h3>
             </div>
           </div>
           <div class="box">
@@ -54,7 +54,7 @@
               <img src="~/assets/agenda-ciudadana.png" alt="" class="image is-150x150 ml-6 pl-5">
             </div>
           <div class="text-box pt-5">
-              <h3>la ruta pot</h3>
+              <h3>Agenda ciudadana</h3>
           </div>
           </div>
         </div>

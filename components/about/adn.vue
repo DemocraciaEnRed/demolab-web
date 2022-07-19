@@ -21,6 +21,8 @@
     </b-carousel> -->
     <b-carousel-list
             :data="items"
+            :autoplay="autoPlay"
+            :interval="interval"
             :items-to-show="perList"
             :items-to-list="increment"
             :repeat="false"
@@ -47,6 +49,8 @@ export default {
   },
   data () {
     return {
+      autoPlay: true,
+      interval: 3000,
       iconSize: 'is-large',
       indicator: false,
       perList: 2,
