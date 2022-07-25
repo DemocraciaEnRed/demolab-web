@@ -38,7 +38,7 @@
               <img src="~/assets/dialogok.png" alt="" class="image is-150x150 ml-6  mt-3">
             </div>
             <div class="text-box pt-5 mt-1">
-              <h3 class="">Las cuentas claras del consejo</h3>
+              <h3 class="">Las cuentas claras del concejo</h3>
             </div>
           </div>
           <div class="box">
