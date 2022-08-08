@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/metodologias", {data:[{}],fetch:[],mutations:void 0});

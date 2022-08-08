@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/que-es-demolab", {data:[{}],fetch:[],mutations:void 0});
