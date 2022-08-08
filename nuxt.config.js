@@ -33,7 +33,8 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -45,6 +46,9 @@ export default {
     // https://github.com/nuxt-community/modules/tree/master/packages/markdownit
     '@nuxtjs/markdownit'
   ],
+  googleAnalytics: {
+    id: 'UA-184663930-2'
+  },
   publicRuntimeConfig: {
     strapiURL: process.env.STRAPI_URL
   },
